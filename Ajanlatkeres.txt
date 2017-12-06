@@ -1,4 +1,15 @@
 1. Bevezetés
-
+	
 2. Ajánlatkérő bemutatása
+	Az MJSL antikvárium néhány éve működik, az olvasni vágyók nagy örömére, Eger belvárosában.
+	
+3. Jelenlegi helyzet bemutatása
+	Az árukészlet bővülésével szükségessé vált egy korszerű nyilvántartási rendszer kialakítása.
+	
+4. Vágyálomrendszer bemutatása
+	A távolabbi jövőben tervezzük, hogy a WEB-es nyilvántartás alapján az interneten történő
+	vásárlást is lehetővé tegyük. Jelen ajánlatkérésnek ez nem tárgya.
+	
+5. Ajánlatkérővel szembeni követelmények
 
+6. Ajánlattal szembeni követelmények
