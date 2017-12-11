@@ -1,15 +1,32 @@
 ﻿1. Bevezetés
+	Az Ajánlatkérő az alábbiakban részletezett feladatra kér árajánlatot a megadott feltétlekkel.
 	
 2. Ajánlatkérő bemutatása
-	Az MJSL antikvárium néhány éve működik, az olvasni vágyók nagy örömére, Eger belvárosában.
+	A Fanatikvárium néhány éve működik, a régi könyvek kedvelői, és az olvasni vágyók nagy örömére, Eger belvárosában.
 	
 3. Jelenlegi helyzet bemutatása
 	Az árukészlet bővülésével szükségessé vált egy korszerű nyilvántartási rendszer kialakítása.
 	
-4. Vágyálomrendszer bemutatása
+4. Követelmény specifikáció
+	Külön dokumentációban részletezve.
+	
+5. Vágyálomrendszer bemutatása
 	A távolabbi jövőben tervezzük, hogy a WEB-es nyilvántartás alapján az interneten történő
 	vásárlást is lehetővé tegyük. Jelen ajánlatkérésnek ez nem tárgya.
 	
-5. Ajánlatkérővel szembeni követelmények
+6. Ajánlattevővel szembeni követelmények
+	Az ajánlattevőnek rendelkeznie kell az előző 2 évben informatikai szoftverek fejlesztésére vonatkozó referenciával.
+	Alkalmatlan az ajánlattevő, ha nem rendelkezik az ajánlatételi felhívás feladásának napjától visszafelé 
+	számított 12 hónapban sikeres műszaki átadás-átvétellel lezárult, de legfeljebb 24 hónapon belül megkezdett, 
+	szerződésszerűen teljesített egy vagy több olyan referenciával.
+	Az alkalmassági követelményeknek az ajánlattevő bármely más szervezet kapacitására támaszkodva is eleget tehet.
 
-6. Ajánlattal szembeni követelmények
+7. Ajánlattal szembeni követelmények
+	Az ajánlattételi határidő: 2018. január 10. Az ajánlattevő előteljesítésre jogosult.
+	Az ajánlat benyújtásának helye: EKE C épület, 3300 Eger, Leányka utca 16.
+	Az ajánlattátel nyelve magyar. Amennyiben az ajánlattevő valamely dokumentumot nem magyar nyelven kívánja benyújtani,
+	gondoskodnia kell a felelős fordításról.
+	Az ajánlat benyújtandó 1 db eredeti példányban papír alapon, és egy eredetivel mindenben megegyező digitális 
+	másolatban. Az ajánlatot tartalmazó borítékon fel kell tüntetni az Ajánlatkérő nevét, az Ajánlatadó nevét, 
+	levelezési címét, e-mail címét, valamint az "Ajánlattételi határidő lejárta előtt nem bontható fel!" feliratot.
+	
