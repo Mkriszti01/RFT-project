@@ -16,7 +16,7 @@ Követelmény specifikáció a Fanatikvárium Kft. nyilvántartási rendszerének fejles
 	A funkciók menürendszerbõl érhetõek el az egér jobb gombjának kattintásával. 
 	Adatbázis az antikvárium aktuális könyveirõl. 
 	Új könyv bevitele: kötelezõ adatkén a szerzõ, a könyv címe, a kiadási év, a kiadó. 
-	Nem kötelezõ adat az ISBN vagy az ISSN szám, leírás. 
+	Nem kötelezõ adat az ISBN vagy az ISSN szám, leírás, mûfaj. 
 	Keresés a könyvek közt: szerzõ és cím szerint. 
 	Aktuális készlet lekérdezése, szerzõ szerint rendezve. 
 ????	Egyéni azonosító generálása: bevitel napja és a sorszám. 
@@ -89,7 +89,7 @@ A meglévõ könyveinkrõl szeretnénk egy nyilvántartást Web-es felületen,
 hogy az érdeklõdõk kényelmes körülmények között, otthonról válogathassanak 
 az üzletünkben megtalálható termékek között.
 A kész Web oldalon legyen egy fejléc az antikvárium nevével, esetleg egy képpel.
-A követlezõ menüpontok szerepeljenek, az oldal bal oldalán egymás alatt:
+A következõ menüpontok szerepeljenek, az oldal bal oldalán egymás alatt:
 
 a.) Kezdõlap:
 Legyen egy kezdõlap, ahol szerepelhet az üzletrõl egy bemutatkozás, tájékoztatás 
@@ -100,7 +100,7 @@ b.) Könyvlista:
 Erre a menüpontra kattintva jelenjen meg a könyvek listája, alapvetõen rendezés nélkül.
 A könyvekrõl el kell tárolni, illetve meg kell jeleníteni a következõ adatokat:
  a könyv szerzõje,
- a könyv címe,
+ a könyv címe, kiadó neve, a kiadás éve, ISBN vagy ISSN (amennyiben elérhetõ)
  kép a könyv borítójáról (amennyiben az adott könyv esetében ez még nem áll rendelkezésre, 
    akkor egy az antikvárium nevét megjelenítõ ábra szerepeljen),
  a könyv mûfaja,
@@ -114,7 +114,8 @@ Szeretnénk, hogy mûfaj szerint lehessen keresni a könyvek között:
  regény, 
  krimi, 
  ifjúsági regény, 
- mese.
+ mese
+ ismeretterjesztõ.
 
 Különbözõ megjelenítést szeretnénk, annak megfelelõen, hogy milyen információkra, 
 milyen részletekre kíváncsi az érdeklõdõ:
@@ -126,9 +127,10 @@ Széles nézet: könyvenként az oldal szélességében jelenjen meg
  a könyv borítójának képe, a könyv szerzõje, címe, mûfaja, rövid leírása. Több sor, egy oszlop.
 
 c.) Listakezelés:
+Ezt a menüpontot felhasználó névvel és jelszóval lehessen elérni. 
 Itt történjen a könyvek felvitele a rendszerbe. Az „Új könyv felvitele” alatt beírható legyen
  minden szükséges információ az adott könyvrõl. A mûfajt ne lehessen szabadon beírni, 
- hanem egy listából (regény, krimi, ifjúsági regény, mese) lehessen választani. 
+ hanem egy listából (regény, krimi, ifjúsági regény, mese, ismeretterjesztõ) lehessen választani. 
  Itt esetleg célszerû szerepeltetni egy „egyéb” kategóriát, arra az esetre, 
  ha a rögzítendõ könyv mûfaja egyik kategóriához sem tartozik.
 
@@ -140,7 +142,7 @@ e-mail cím: fanatikvarium@fanatikvarium.hu
 telefon: 0620/111-2222
 
 A Web oldal alján legyen a fejléccel azonos színben egy lábléc, 
-a „Köszönjük, hogy ellátogatott oldalonra!” felirattal.
+a „Köszönjük, hogy ellátogatott oldalunkra!” felirattal.
 
 
 

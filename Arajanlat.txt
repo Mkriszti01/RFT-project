@@ -1,0 +1,39 @@
+//Minta alapján
+
+//CÍMOLDAL
+
+Ajánlat a Fanatikvárium Kft. nyilvántartási rendszerének fejlesztésére
+
+
+Készítette
+dátum
+
+
+//VERZÓ
+Kik vannak a projektbe (nevek)
+Melyik cég készíti? (Mi legyen a nevünk)
+(megalakulás alatt)
+
+
+//3. oldal
+A dokumentum a Fanatikvárium Kft nyilvántartási rendszer fejlesztési projektjéhez készült. Kérem, kezelje bizalommal!
+
+
+Készítette: NÉV
+
+
+
+Minden jog fentartva. Jelen kiadványt, illetve annak részeit továbbadni, sokszorosítani, bármilyen forméban - elektronikusan vagy más úton - közölni a kiadó és a megrendelő előzetes engedélye nélkül tilos!
+
+
+//4. oldal
+TARTALOM
+
+
+//5. oldal
+//ITT kezdődik az első számozott oldal és a lényeg
+
+
+
+
+
