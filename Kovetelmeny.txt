@@ -1,5 +1,88 @@
-KÃ¶vetelmÃ©ny specifikÃ¡ciÃ³
+Követelmény specifikáció a Fanatikvárium Kft. nyilvántartási rendszerének fejlesztéséhez
 
-ÃrajÃ¡nlatot szeretnÃ©nk kÃ©rni a kÃ¶vetkezÅ‘ tartalommal:
 
  
+
+
+Árajánlatot szeretnénk kérni a következõ tartalommal:
+
+
+// ez alapján dolgoztam:
+// http://swap.web.elte.hu/progtech2/progtech2_ea02.pdf
+
+
+1. Funkcionális követelmények
+//(a szoftver által nyújtott szolgáltatások, reakciók, viselkedések leírása)
+	A funkciók menürendszerbõl érhetõek el az egér jobb gombjának kattintásával. 
+	Adatbázis az antikvárium aktuális könyveirõl. 
+	Új könyv bevitele: kötelezõ adatkén a szerzõ, a könyv címe, a kiadási év, a kiadó. Nem kötelezõ adat az ISBN vagy az ISSN szám, leírás. 
+	Keresés a könyvek közt: szerzõ és cím szerint. 
+	Aktuális készlet lekérdezése, szerzõ szerint rendezve. 
+????	Egyéni azonosító generálása: bevitel napja és a sorszám. 
+
+2. Nem funkcionális követelmények
+//(megszorítások a szolgáltatásokra, a viselkedésre)
+
+2.1.termék követelmények: 
+
+
+/*
+• hatékonyság (efficiency): 
+a szoftver által a hardver erõforrásokra (processzor, memória, merevlemez, sávszélesség) való támaszkodás mértéke, amelyet a lehetõ legkisebbre kell szabni
+*/
+
+
+• megbízhatóság 
+	a funkciók mindig elérhetõek és végrehajtódnak, akkor is, ha az adatok sérülnek 
+	a felhasználói bevitel ellenõrzött, csak helyes bevitelt fogad el az alkalmazás 
+
+• biztonság 
+	 A szoftvert alapfunkciója (aktuális könyvlista), mindenki számára elérhetõ. 
+	Az adatbázis kezelése felhasználói névvel és jelszóval érhetõ el. 
+a szoftverben által tárolt adatok védelme az illetéktelen (a szoftveren kívül történõ) hozzáféréssel szemben.
+
+• hordozhatóság
+	 A program interneten keresztül elérhetõ legyen Windows XP, vagy újabb operációs rendszeren is. Elsõsorban ….. böngészõvel. 
+A program használatához ne kelljen külön szoftvert telepíteni. 
+
+• felhasználhatóság
+	Minden programfunkciónak azonnal áttekinthetõnek kell lennie kézikönyv nélkül. 
+
+
+
+2.2.menedzselési követelmények
+
+• környezeti: 
+	A felhasználás helye a Windows 10-t futtató számítógép vagy laptop. 
+	Nem kell más szoftverekkel együttmûködnie.
+
+• mûködési: 
+	A programot minden nap reggel indítják el és este állítják le, közben változó idõközönként veszik igénybe a funkcionalitását.
+	Esetenként 2 vagy több helyen használhatják. 
+
+/*
+• fejlesztési (development): 
+a fejlesztés módszertana, programozási paradigmái, szükséges eszköztára (pl. fejlesztõkönyezet) 
+a felhasznált programozási nyelv(ek) és könyvtárak 
+*/
+
+
+/*
+2.3.külsõ követelmények 
+minden, külsõ tényezõ által befolyásolt követelmény, 
+jogszabályoknak történõ megfelelés 
+etikai kérdések a felhasználók adatival, és azok továbbadásával szemben 
+tulajdonjogi kérdések a begyûjtött adatokkal, az esetleges külsõ fejlesztésekkel kapcsolatosan 
+*/
+
+3. A felhasználói felület modellje: 
+
+//CSAK VÁZLATOSAN 
+// menüpontok, azok mit tartalmaznak, mi jelenjen meg a kezdõlapon
+
+
+
+
+
+
+

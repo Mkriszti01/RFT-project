@@ -1,32 +1,42 @@
-ï»¿1. BevezetÃ©s
-	Az AjÃ¡nlatkÃ©rÅ‘ az alÃ¡bbiakban rÃ©szletezett feladatra kÃ©r Ã¡rajÃ¡nlatot a megadott feltÃ©tlekkel.
-	
-2. AjÃ¡nlatkÃ©rÅ‘ bemutatÃ¡sa
-	A FanatikvÃ¡rium nÃ©hÃ¡ny Ã©ve mÅ±kÃ¶dik, a rÃ©gi kÃ¶nyvek kedvelÅ‘i, Ã©s az olvasni vÃ¡gyÃ³k nagy Ã¶rÃ¶mÃ©re, Eger belvÃ¡rosÃ¡ban.
-	
-3. Jelenlegi helyzet bemutatÃ¡sa
-	Az Ã¡rukÃ©szlet bÅ‘vÃ¼lÃ©sÃ©vel szÃ¼ksÃ©gessÃ© vÃ¡lt egy korszerÅ± nyilvÃ¡ntartÃ¡si rendszer kialakÃ­tÃ¡sa.
-	
-4. KÃ¶vetelmÃ©ny specifikÃ¡ciÃ³
-	KÃ¼lÃ¶n dokumentÃ¡ciÃ³ban rÃ©szletezve.
-	
-5. VÃ¡gyÃ¡lomrendszer bemutatÃ¡sa
-	A tÃ¡volabbi jÃ¶vÅ‘ben tervezzÃ¼k, hogy a WEB-es nyilvÃ¡ntartÃ¡s alapjÃ¡n az interneten tÃ¶rtÃ©nÅ‘
-	vÃ¡sÃ¡rlÃ¡st is lehetÅ‘vÃ© tegyÃ¼k. Jelen ajÃ¡nlatkÃ©rÃ©snek ez nem tÃ¡rgya.
-	
-6. AjÃ¡nlattevÅ‘vel szembeni kÃ¶vetelmÃ©nyek
-	Az ajÃ¡nlattevÅ‘nek rendelkeznie kell az elÅ‘zÅ‘ 2 Ã©vben informatikai szoftverek fejlesztÃ©sÃ©re vonatkozÃ³ referenciÃ¡val.
-	Alkalmatlan az ajÃ¡nlattevÅ‘, ha nem rendelkezik az ajÃ¡nlatÃ©teli felhÃ­vÃ¡s feladÃ¡sÃ¡nak napjÃ¡tÃ³l visszafelÃ© 
-	szÃ¡mÃ­tott 12 hÃ³napban sikeres mÅ±szaki Ã¡tadÃ¡s-Ã¡tvÃ©tellel lezÃ¡rult, de legfeljebb 24 hÃ³napon belÃ¼l megkezdett, 
-	szerzÅ‘dÃ©sszerÅ±en teljesÃ­tett egy vagy tÃ¶bb olyan referenciÃ¡val.
-	Az alkalmassÃ¡gi kÃ¶vetelmÃ©nyeknek az ajÃ¡nlattevÅ‘ bÃ¡rmely mÃ¡s szervezet kapacitÃ¡sÃ¡ra tÃ¡maszkodva is eleget tehet.
+Fanatikvárium Kft
+3300 Eger, Dobó tér 3.
 
-7. AjÃ¡nlattal szembeni kÃ¶vetelmÃ©nyek
-	Az ajÃ¡nlattÃ©teli hatÃ¡ridÅ‘: 2017. december 29. Az ajÃ¡nlattevÅ‘ elÅ‘teljesÃ­tÃ©sre jogosult.
-	Az ajÃ¡nlat benyÃºjtÃ¡sÃ¡nak helye: EKE C Ã©pÃ¼let, 3300 Eger, LeÃ¡nyka utca 16.
-	Az ajÃ¡nlattÃ¡tel nyelve magyar. Amennyiben az ajÃ¡nlattevÅ‘ valamely dokumentumot nem magyar nyelven kÃ­vÃ¡nja benyÃºjtani,
-	gondoskodnia kell a felelÅ‘s fordÃ­tÃ¡srÃ³l.
-	Az ajÃ¡nlat benyÃºjtandÃ³ 1 db eredeti pÃ©ldÃ¡nyban papÃ­r alapon, Ã©s egy eredetivel mindenben megegyezÅ‘ digitÃ¡lis 
-	mÃ¡solatban. Az ajÃ¡nlatot tartalmazÃ³ borÃ­tÃ©kon fel kell tÃ¼ntetni az AjÃ¡nlatkÃ©rÅ‘ nevÃ©t, az AjÃ¡nlatadÃ³ nevÃ©t, 
-	levelezÃ©si cÃ­mÃ©t, e-mail cÃ­mÃ©t, valamint az "AjÃ¡nlattÃ©teli hatÃ¡ridÅ‘ lejÃ¡rta elÅ‘tt nem bonthatÃ³ fel!" feliratot.
+
+Címezett: 
+Project Kft
+Eger, Érsek u. 6.
+
+Tárgy: Ajánlatkérõ a Fanatikvárium Kft. nyilvántartási rendszerének fejlesztésére
+
+
+1. Bevezetés
+	Az Ajánlatkérõ az alábbiakban részletezett feladatra kér árajánlatot a megadott feltételekkel.
+	
+2. Ajánlatkérõ bemutatása
+	A Fanatikvárium Kft 2010-ben egy családi kezdeményezéssel, mintegy 1500 kötettel nyitotta meg Eger belvárosában antikváriumát és restauráló mûhelyét. Folyamatosan bõvülõ kínálattal várjuk a régi könyvek kedvelõit, és az olvasni vágyókat.
+	
+3. Jelenlegi helyzet bemutatása
+	Az árukészlet bõvülésével szükségessé vált egy korszerû nyilvántartási rendszer kialakítása. Jelenleg 5000 darabszámmal dolgozunk, ami folyamatosan bõvül. Becsléseink szerint ez a szám 2 éven belül 10000-es kötetszámot is elérheti. Olyan rendszert szeretnénk, amiben kényelmesen tudjuk követni a könyveinket, figyelhetjük az aktuális készletünket és felvehetünk újabb köteteket; egyszerû és jól átlátható nyilvántartási rendszer, a továbbiakban fejlesztés lehetõségét is magában foglalja. Lényeges szempont lenne, hogy WEB-es felületen történjen mindet, mert a könyvek feldolgozása nem minden esetben az üzletben történik. 
+	
+4. Követelmény specifikáció
+	Külön dokumentációban részletezve.
+	
+5. Vágyálomrendszer bemutatása
+	A távolabbi jövõben tervezzük, hogy a WEB-es nyilvántartás alapján az interneten történõ vásárlást is lehetõvé tegyük. Jelen ajánlatkérésnek ez nem tárgya.
+	
+6. Ajánlattevõvel szembeni követelmények
+	Az ajánlattevõnek rendelkeznie kell az elõzõ 2 évben informatikai szoftverek fejlesztésére vonatkozó referenciával.
+	Alkalmatlan az ajánlattevõ, ha nem rendelkezik az ajánlatételi felhívás feladásának napjától visszafelé 
+	számított 12 hónapban sikeres mûszaki átadás-átvétellel lezárult, de legfeljebb 24 hónapon belül megkezdett, 
+	szerzõdésszerûen teljesített egy vagy több olyan referenciával.
+	Az alkalmassági követelményeknek az ajánlattevõ bármely más szervezet kapacitására támaszkodva is eleget tehet.
+
+7. Ajánlattal szembeni követelmények
+	Az ajánlattételi határidõ: 2017. december 29. Az ajánlattevõ elõteljesítésre jogosult.
+	Az ajánlat benyújtásának helye: EKE C épület, 3300 Eger, Leányka utca 16.
+	Az ajánlattétel nyelve magyar. Amennyiben az ajánlattevõ valamely dokumentumot nem magyar nyelven kívánja benyújtani,
+	gondoskodnia kell a felelõs fordításról.
+	Az ajánlat benyújtandó 1 db eredeti példányban papír alapon, és egy eredetivel mindenben megegyezõ digitális 
+	másolatban. Az ajánlatot tartalmazó borítékon fel kell tüntetni az Ajánlatkérõ nevét, az Ajánlatadó nevét, 
+	levelezési címét, e-mail címét, valamint az "Ajánlattételi határidõ lejárta elõtt nem bontható fel!" feliratot.
 	
