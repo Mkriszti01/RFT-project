@@ -35,7 +35,7 @@ Tárgy: Ajánlatkérés a Fanatikvárium Kft. nyilvántartási rendszerének fej
 6. Ajánlattevővel szembeni követelmények
 	Az ajánlattevőnek rendelkeznie kell az előző 2 évben informatikai szoftverek fejlesztésére vonatkozó referenciával.
 	Alkalmatlan az ajánlattevő, ha nem rendelkezik az ajánlatételi felhívás feladásának napjától visszafelé 
-	számított 12 hónapban sikeres átadás-átvétellel lezárult, de legfeljebb 24 hónapon belül megkezdett, 
+	számított 12 hónapban sikeres műszaki átadás-átvétellel lezárult, de legfeljebb 24 hónapon belül megkezdett, 
 	szerződésszerűen teljesített egy vagy több referenciával.
 	Az alkalmassági követelményeknek az ajánlattevő bármely más szervezet kapacitására támaszkodva is eleget tehet.
 
