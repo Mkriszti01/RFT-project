@@ -35,5 +35,159 @@ TARTALOM
 
 
 
+Ajánlat
+a Fanatikvárium Kft. nyilvántartási rendszerének fejlesztésére
+2017. december
+ 
+EWT Egri Web Team Kft. 
+(megalakulás alatt)
+ 
+Ez a dokumentum a Fanatikvárium Kft. nyilvántartási rendszerének fejlesztésére kiírt ajánlatkérésre készült. 
+Kérjük, kezelje bizalmasan! 
+Készítette: Lovász Ferenc
+Minden jog fenntartva. Jelen kiadványt, illetve annak részeit továbbadni, sokszorosítani, 
+bármilyen formában (elektronikusan vagy más úton) közölni az ajánlattevő és az ajánlatkérő előzetese engedélye nélkül tilos!
+ 
+
+Tartalom
+Összefoglalás	5
+Bemutatkozás és referenciák	5
+Cégtörténet	5
+Referenciák	5
+Követelmények és a webes felület bemutatása	6
+Felhasználni kívánt technológiák	6
+Szolgáltatási területek egységárai	6
+Ütemterv	7
+Utószó	8
+
+
+ 
+Összefoglalás
+Tisztelt Árajánlatkérő!
+Az Önök által meghirdetett pályázatra kíván Cégünk jelentkezni, amely az „Ajánlat a Fanantikvárium Kft. nyilvántartási rendszerének
+fejlesztésére” címet viseli. 
+Egy olyan webes felületet szeretnénk létrehozni önöknek, amely segítségével az online felületen kényelmesen és könnyen lehet követni a
+könyveket, figyelhető az aktuális készlet alakulása, illetve könnyen bővíthető a meg lévő készletállomány az újabb kötetek felvételével. 
+Ez egy egyszerű és jól átlátható nyilvántartási rendszer, amely a jövőbeni fejlesztési lehetőségeket is magába foglalja az árajánlatkérő 
+szempontjából. Természetesen a rendszer kialakításakor figyelemmel vagyunk az árajánlatkérő igényeire, illetve a rendszer bevezetését 
+követően további 6 hónapig háttértámogatást nyújtunk az új felmerülő igények kialakításához is.
+A pályázatnak megfelelő webes felületet a megrendeléstől számított 60 napon belül készítjük el, amelyhez 20.000 Ft/fő napidíjat 
+állapítottunk meg. 
+Az árajánlatunk 2 fővel számolva 60 napra: 2.400.000 Ft.
+Bemutatkozás és referenciák
+Cégtörténet
+Cégünk megalapításának ötlete 2016 decemberében merült fel, amikor a 4 alapító tag - Jankuráné Szabó Csilla, Mizera Krisztina Gabriella,
+Sas Attila László, Lovász Ferenc – első féléves tanulmányait az egri Eszterházy Károly Egyetem Természettudományi Karán, 
+Programtervező Informatikus felsőfokú szakképzésen sikeresen teljesítette. A második félévet megelőzően utána jártunk a jogi, 
+adó és adminisztratív feltételeknek, így 2017. január végén elindítottuk a cégbejegyzése iránti kérelmet. 
+Valljuk és hisszük, hogy cégünk megalapításával nem csak egy vállalkozással több lesz a piacon, hiszen honlapot, webshopot és webes 
+rendszert készíteni meglehetősen sok vállalkozás tud. Magunkat nem csak egy honlap készítő/webes rendszert kialakító vállalkozásnak 
+tartjuk, hanem egy olyan összetett tudással, tapasztalattal rendelkező internetes csapatnak is, amely képes a partnerei igényeit és 
+elvárásait maximálisan kielégíteni. 
+Nem csak informatikai szempontból közelítünk a munkához, hanem igyekszünk a legteljesebben megérteni, felmérni és teljesíteni a 
+megrendelő üzleti céljait, elvárásait. Véleményével, ötleteivel, tapasztalatával pedig aktívan segíti, hogy a tervezett projekt a
+lehető legjobban sikerüljön.
+Célunk, hogy partnereink számára teljes körű internetes megoldást tudjunk nyújtani. Fő tevékenységeink: Honlap fejlesztése, Webes 
+rendszer létrehozása, illetve megújítása; Webshop, E-kereskedelem; Online marketing; Egyedi internetes igények kivitelezése; 
+Háttértámogatás. 
+Cégünkkel való kapcsolat nem csak egy adott feladat elvégzéséről szól, hanem hosszabb távú közös munkát feltételez, hiszen a partnerünknek 
+nyújtott háttértámogatás segítségével lehetőséget adunk az új felmerülő igények kezelésére, illetve a folyamatos segítségnyújtás 
+iztosításával hozzájárulunk partnerünk további eredményes működéséhez is.
+Referenciák
+Kezdő vállalkozás lévén referenciánk száma nem túl nagy, de az eddigi megrendeléseink mindig határidőben sikeres műszaki átadás-átvétellel 
+és közös megelégedettséggel zárultak.
+Számos kisebb ügyfél tisztelt meg bizalmával ez évben, így volt akinek honlapot/webes rendszert készítettünk, volt akinek az online 
+marketing tevékenységét segítettük és olyan is van akinek napi szinten frissítjük és karbantartjuk honlapját.
+Követelmények és a webes felület bemutatása
+A meghirdetett ajánlatkérésben 3 nagy követelmény szerepel:
+1.	Funkcionális követelmények, mint a szoftver által nyújtott szolgáltatások, reakciók, viselkedések leírása
+2.	Nem funkcionális követelmények, mint a termék követelmény, menedzselési és külső követelmény 
+3.	Felhasználói felület modellje: a weboldallal kapcsolatos elvárások
+A kialakított webes rendszer segítségével az antikvárium könyveiről az aktuális adatbázis fog rendelkezésre állni, illetve új könyv 
+bevitelére és keresésére is lehetőség lesz a meghatározott funkcionális feltételeknek megfelelően. 
+A nem funkcionális követelmények keretében a termékkel szemben a hatékonyságot, a megbízhatóságot, a biztonságot, a hordozhatóságot
+és a felhasználhatóságot kívánjuk szem előtt tartani a rendszer kialakítása és működtetése során. A működtetés, menedzselés keretében
+pedig a környezeti, működési és fejlesztési szempontokat, illetve a külső tényezőknek való megfelelést igyekszünk teljesíteni és 
+kielégíteni. 
+A felhasználói modell követelményeinek igyekszünk maximálisan eleget tenni, illetve javaslatokat tennénk különböző lehetőségek, 
+ejlesztések és újítások megvalósítására is. 
+
+A kifejlesztendő weboldallal kapcsolatos elvárások:
+•	A kezdőlapon a cég tevékenységének és az üzletnek a bemutatása szerepeljen.
+•	A könyvlista menüpontban jelenjen meg az adatbázisban szereplő könyvek listája a következő adatokkal: könyv szerzője, a könyv címe, 
+a könyv műfaja és egy rövid ismertetés a könyvről (esetleg kép a könyv borítójáról, kiadó neve, kiadás éve, ISBN, ISSN). 
+Az adatbázisból cím, szerző és műfaj szerint lehessen keresni, különböző megjelenítés közül lehessen választani.
+•	A listakezelés menüpontban legyen lehetőség az új könyvek adatainak felvitele, rögzítése az adatbázisba.
+•	A kapcsolat menüpontban a cég elérhetőségei, cím, e-mail cím és telefonszám szerepeljen.
+A webes rendszerrel kapcsolatos további elvárás, hogy rendelkezésre álljon egy olyan felület a megrendelő részére, ahol a könyvek 
+gyszerű és gyors karbantartása és felvitele történhet. Természetesen az adatbevitel és módosítás csak szigorú ellenőrzések mellett 
+történhet meg! 
+Felhasználni kívánt technológiák
+A felhasználni kívánt technológiák teljes mértékben lefedik a pályázatban leírtakat, PHP alapú megvalósítás, flash mellőzésével.
+A keretrendszer PHP és CSS alapokon fog működni, a rendszert hasonló módon képzeljük el, mint a legelterjedtebb tartalomkezelő 
+rendszerek esetében, mint például a Drupal vagy a Wordpress tartalom feltöltésére szánt űrlapjai.
+Szolgáltatási területek egységárai
+A pályázatban felsorolt három pont közül mind a háromra kívánunk pályázni. 
+A szoftver által nyújtott szolgáltatások, reakciók, viselkedések leírását és összeállítását 750.000 Ft értékben, a termék, menedzselési 
+és külső követelményeknek való megfelelést 550.000 Ft értékben, míg a weboldal kialakítását és fejlesztését 1.100.000 Ft értékben tudjuk 
+vállalni.
+
+
+Funkció	Feladat	Prioritás	Becslés	Hátralévő 
+Funkcionális követelmények		1	300	300
+	Tartalmak szerkesztése		35	35
+	Tartalmak készítése		25	25
+	Tartalmi jogosultságok		25	25
+	Formázott szöveg		20	20
+	Formázatlan szöveg		20	20
+	Média elemek csatolása		20	20
+	Kép és Video csatolása		20	20
+	Közösségi oldali megosztás		20	20
+	Nézetek készítése, szerkesztése		30	30
+	Szűrés lehetősége nézet, tartalom, dátum, szerző szerint		20	20
+	Belépő oldal, regisztráció, reg védelem		20	20
+	Jogosultsági rendszer, be-ki lépés, e-mail küldés, jelszó emlékeztető		20	20
+	Regisztrált és nem regisztrált felhasználói jogosultságok beállítása		20	20
+	Admin jogosultságok beállítása		5	5
+Ütemterv
+
+Funkció	Feladat	Prioritás	Becslés	Hátralévő 
+Nem Funkcionális követelmények		2	220	220
+	Felhasználó általi karbantartás		20	20
+	Tartalmak, oldalak minősítése gomb		25	25
+	Tartalmakhoz hozzászólás, megosztás 		20	20
+	Hírcsatorna beépítése (RSS)		20	20
+	File fel-le töltési lehetőség		20	20
+	Kalkulátorok választhatósága		25	25
+	Egyedi keresők fejlesztése		20	20
+	Felhasználói dokumentáció készítése		20	20
+	Fejlesztői dokumentáció készítése		20	20
+	Tesztelés (project)		20	20
+	Tesztelés böngészőn		10	10
+Project vezetés			15	15
+
+Funkció	Feladat	Prioritás	Becslés	Hátralévő 
+Felhasználói felület modellje		3	440	440
+	Megadott adatok alapján fő és aloldal elkészítése		50	50
+	Fő és másodlagos navigációs menük elkészítése		45	45
+	Szükséges gráfok, ikonok elkészítése		35	35
+	Ergonómikus, felhasználóbarát felületek tervezése		40	40
+	Adott logó színvilágának megtervezése, készítése		40	40
+	Többnyelvű megjelenési lehetőség		35	35
+	Szükséges tartalmak fordítása		40	40
+	Nyomtatási lehetőség		35	35
+	Többféle böngésző kompabilitás		45	45
+	Mérhetőség (analitics) skálázhatóság		35	35
+Tartalék idő			40	40
+Összes Munkaidő:			960 	960 óra
+
+Kalkulációnk alapján a projektet 2 fővel számolva 60 napnyi időtartam alatt tudjuk elvállalni, 20.000 Ft/napidíjjal számolva.
+Összesen a projekt elkészítésének ellenértékét 2.400.000 Ft értékben állapítottuk meg. 
+Utószó
+Valójában nem rendelkezünk több éves szakmai múlttal és tapasztalattal, de bízunk benne, hogy a megalakítás alatt álló cégünk 
+bemutatása és ajánlata elnyerte tetszésüket és a benyújtott pályázatunk pozitív elbírálásra talál.
+Tisztelettel: 
+
+EWT Egri Web Team Kft.
 
 
