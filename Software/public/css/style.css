@@ -1,0 +1,205 @@
+body {
+	padding: 0;
+	margin: 0;
+	background-position: top left;
+	background-repeat: repeat;
+  font-family: Arial,Helvetica,sans-serif;
+  line-height: 22px;
+}
+
+#main {
+	width: 1100px;
+	margin: 0 auto;
+	background-color: #C6DDF1;
+	position: relative;
+        box-shadow: 0 0 25px #cccccc;
+	-webkit-box-shadow: 0 0 25px #cccccc;
+	-moz-box-shadow: 0 0 25px #cccccc;
+}
+
+
+#header {
+	background-image: url(../images/fest.jpg);
+	background-size: 50% 160px;
+	background-color: #326DA3;
+	background-position: top right;
+	background-repeat: no-repeat;
+	height: 150px;
+	padding: 10px 0 0 20px;
+	position: relative;
+}
+
+#header #h1 {
+	font-size: 54px;
+	font-weight: bold;
+	color: #fff;
+}
+
+#main #menu {
+        width: 180px;
+	background-position: bottom left;
+	background-repeat: no-repeat;
+	background-color: #8CC1F2;
+	padding: 0px 0 0 0;
+        float:left;
+}
+
+#main #menu ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+#main #menu ul li {
+        width: 180px;
+	padding: 0;
+	margin: 0;
+	float: left;
+        font-size: 16px;
+        border-top: 2px solid #fff;
+        border-bottom: 2px solid #fff;
+        background-color: #8CC1F2;
+}
+
+#main #menu ul li.active {
+	background-color: #5aa;
+}
+
+#main #menu ul li a {
+	padding: 0 15px;
+	line-height: 22px;
+	color: #000;
+	text-decoration: none;
+	display: block;
+}
+
+#main #menu ul li a:hover {
+	text-decoration: none;
+        color: #fff;
+	background-color: #326DA3;
+}
+
+#main #content_lista {
+        width: 710px;
+        float: left;
+        padding: 20px 0 30px 20px;
+}
+
+#main #content {
+        width: 750px;
+        float: left;
+        padding: 20px 10px 30px 20px;
+}
+
+#menu #current {
+    background-color: green;
+}
+
+.konyv0 { 
+    background-color: #abc;
+    border-style: solid;
+    border-color: red;
+    color: white;
+    padding: 20px;
+    margin: 5px;
+    width: 130px;
+    height: 100px;
+    float: left;
+}
+
+.konyv0 img { display: none; }
+
+.konyv0 .szerzo {
+	color: blue;
+	font-size: 14px;
+	font-weight: bold;
+ }
+
+.konyv0 .cim {
+	color: red;
+	font-size: 18px;
+	font-weight: bold;
+ }
+
+.konyv0 .mufaj { color: black; }
+.konyv0 .leiras { color: black; display: none; }
+
+.konyv1 { 
+    background-color: #FDFF4B;
+    border-style: solid;
+    border-color: blue;
+    color: black;
+    margin: 10px 10px 0 0;
+    padding: 10px;
+    width: 214px;
+    height: 310px;
+    float: left;
+}
+
+.konyv1 img { 
+	display: block;
+	width: 160px;
+	height: 220px;
+}
+
+.konyv1 .szerzo {
+	color: red;
+	font-size: 16px;
+	font-weight: bold;
+ }
+
+.konyv1 .cim {
+	color: blue;
+	font-size: 20px;
+	font-weight: bold;
+ }
+
+.konyv1 .mufaj { color: black; }
+.konyv1 .leiras { color: black; display: none; }
+
+.konyv2 { 
+    background-color: #182A67;
+    border-style: solid;
+    border-color: yellow;
+    color: black;
+    margin: 20px 0 20px 0;
+    padding: 20px;
+    width: 100%;
+    height: 150px;
+    float: left;
+}
+
+.konyv2 img { 
+	display: block;
+	float: left;
+	padding: 0 10px 0 0;
+	width: 100px;
+	height: 150px;
+}
+
+
+.konyv2 .szerzo {
+	color: yellow; 
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.konyv2 .cim {
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+ }
+
+.konyv2 .mufaj { color: yellow; }
+.konyv2 .leiras { color: white; display: block; }
+
+
+#footer {
+	background-color: #326DA3;
+	background-position: top left;
+	background-repeat: no-repeat;
+	color: #fff;
+	padding: 10px 0 10px 20px;
+        clear: both;
+}
+
