@@ -38,7 +38,6 @@ a Fanatikvárium Kft. nyilvántartási rendszerének fejlesztéséhez
 	Minden programfunkciónak azonnal áttekinthetőnek kell lennie kézikönyv nélkül. 
 
 
-
 2.2.menedzselési követelmények
 
 • környezeti: 
@@ -50,9 +49,15 @@ a Fanatikvárium Kft. nyilvántartási rendszerének fejlesztéséhez
 	veszik igénybe a funkcionalitását.
 	Esetenként 2 vagy több helyen használhatják. 
 
+	
+2.3.külső követelmények 
+	A jogszabályi előírások betartása az Ajánlattevő részéről.
+	A felhasználók adatinak bizalmas kezelése.
+	Az ajánlatkérés alapján elkészülő fejlesztés, szoftver tulajdonjogi kérdéseit az Ajánlatkérő
+	és az Ajánlattevő között létrejövő szerződés szabályozza.
+
 
 3. A felhasználói felület modellje: 
-
 
 A meglévő könyveinkről szeretnénk egy nyilvántartást Web-es felületen, 
 hogy az érdeklődők kényelmes körülmények között, otthonról válogathassanak 
