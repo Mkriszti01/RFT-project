@@ -1,148 +1,117 @@
-Követelmény specifikáció a Fanatikvárium Kft. nyilvántartási rendszerének fejlesztéséhez
-
-
- 
-
-
-Árajánlatot szeretnénk kérni a következõ tartalommal:
-
-
-// ez alapján dolgoztam:
-// http://swap.web.elte.hu/progtech2/progtech2_ea02.pdf
-
-
-1. Funkcionális követelmények
-//(a szoftver által nyújtott szolgáltatások, reakciók, viselkedések leírása)
-	A funkciók menürendszerbõl érhetõek el az egér jobb gombjának kattintásával. 
-	Adatbázis az antikvárium aktuális könyveirõl. 
-	Új könyv bevitele: kötelezõ adatkén a szerzõ, a könyv címe, a kiadási év, a kiadó. 
-	Nem kötelezõ adat az ISBN vagy az ISSN szám, leírás, mûfaj. 
-	Keresés a könyvek közt: szerzõ és cím szerint. 
-	Aktuális készlet lekérdezése, szerzõ szerint rendezve. 
-????	Egyéni azonosító generálása: bevitel napja és a sorszám. 
-
-2. Nem funkcionális követelmények
-//(megszorítások a szolgáltatásokra, a viselkedésre)
-
-2.1.termék követelmények: 
-
-
-/*
-• hatékonyság (efficiency): 
-a szoftver által a hardver erõforrásokra (processzor, memória, merevlemez, sávszélesség) 
-való támaszkodás mértéke, amelyet a lehetõ legkisebbre kell szabni
-*/
-
-
-• megbízhatóság 
-	a funkciók mindig elérhetõek és végrehajtódnak, akkor is, ha az adatok sérülnek 
-	a felhasználói bevitel ellenõrzött, csak helyes bevitelt fogad el az alkalmazás 
-
-• biztonság 
-	 A szoftvert alapfunkciója (aktuális könyvlista), mindenki számára elérhetõ. 
-	Az adatbázis kezelése felhasználói névvel és jelszóval érhetõ el. 
-a szoftverben által tárolt adatok védelme az illetéktelen (a szoftveren kívül történõ) hozzáféréssel szemben.
-
-• hordozhatóság
-	 A program interneten keresztül elérhetõ legyen Windows XP, vagy újabb operációs rendszeren is. 
-	 Elsõsorban ….. böngészõvel. 
-A program használatához ne kelljen külön szoftvert telepíteni. 
-
-• felhasználhatóság
-	Minden programfunkciónak azonnal áttekinthetõnek kell lennie kézikönyv nélkül. 
+KÃ¶vetelmÃ©ny specifikÃ¡ciÃ³ 
+a FanatikvÃ¡rium Kft. nyilvÃ¡ntartÃ¡si rendszerÃ©nek fejlesztÃ©sÃ©hez
 
 
 
-2.2.menedzselési követelmények
 
-• környezeti: 
-	A felhasználás helye a Windows 10-t futtató számítógép vagy laptop. 
-	Nem kell más szoftverekkel együttmûködnie.
-
-• mûködési: 
-	A programot minden nap reggel indítják el és este állítják le, közben változó idõközönként 
-	veszik igénybe a funkcionalitását.
-	Esetenként 2 vagy több helyen használhatják. 
-
-/*
-• fejlesztési (development): 
-a fejlesztés módszertana, programozási paradigmái, szükséges eszköztára (pl. fejlesztõkönyezet) 
-a felhasznált programozási nyelv(ek) és könyvtárak 
-*/
+ÃrajÃ¡nlatot szeretnÃ©nk kÃ©rni a kÃ¶vetkezÅ‘ tartalommal:
 
 
-/*
-2.3.külsõ követelmények 
-minden, külsõ tényezõ által befolyásolt követelmény, 
-jogszabályoknak történõ megfelelés 
-etikai kérdések a felhasználók adatival, és azok továbbadásával szemben 
-tulajdonjogi kérdések a begyûjtött adatokkal, az esetleges külsõ fejlesztésekkel kapcsolatosan 
-*/
+1. FunkcionÃ¡lis kÃ¶vetelmÃ©nyek
+	A funkciÃ³k menÃ¼rendszerbÅ‘l Ã©rhetÅ‘ek el az egÃ©r bal gombjÃ¡nak kattintÃ¡sÃ¡val. 
+	AdatbÃ¡zis az antikvÃ¡rium aktuÃ¡lis kÃ¶nyveirÅ‘l. 
+	Ãšj kÃ¶nyv bevitele: kÃ¶telezÅ‘ adatkÃ©nt a szerzÅ‘, a kÃ¶nyv cÃ­me, leÃ­rÃ¡s, mÅ±faj. 
+	Nem kÃ¶telezÅ‘ adat az ISBN vagy az ISSN szÃ¡m, a kiadÃ¡si Ã©v, a kiadÃ³, kÃ©p a kÃ¶nyv borÃ­tÃ³jÃ¡rÃ³l. 
+	KeresÃ©s a kÃ¶nyvek kÃ¶zt: szerzÅ‘ Ã©s cÃ­m szerint. 
+	AktuÃ¡lis kÃ©szlet lekÃ©rdezÃ©se, szerzÅ‘ szerint rendezve. 
 
-3. A felhasználói felület modellje: 
+	
+2. Nem funkcionÃ¡lis kÃ¶vetelmÃ©nyek
 
-//CSAK VÁZLATOSAN 
-// menüpontok, azok mit tartalmaznak, mi jelenjen meg a kezdõlapon
+2.1.termÃ©k kÃ¶vetelmÃ©nyek: 
+
+â€¢ megbÃ­zhatÃ³sÃ¡g 
+	a funkciÃ³k mindig elÃ©rhetÅ‘ek Ã©s vÃ©grehajtÃ³dnak, akkor is, ha az adatok sÃ©rÃ¼lnek 
+	a felhasznÃ¡lÃ³i bevitel ellenÅ‘rzÃ¶tt, csak helyes bevitelt fogad el az alkalmazÃ¡s 
+
+â€¢ biztonsÃ¡g 
+	A szoftvert alapfunkciÃ³ja (aktuÃ¡lis kÃ¶nyvlista), mindenki szÃ¡mÃ¡ra elÃ©rhetÅ‘. 
+	Az adatbÃ¡zis kezelÃ©se felhasznÃ¡lÃ³i nÃ©vvel Ã©s jelszÃ³val Ã©rhetÅ‘ el. 
+	A szoftverben tÃ¡rolt adatok vÃ©delme az illetÃ©ktelen (a szoftveren kÃ­vÃ¼l tÃ¶rtÃ©nÅ‘) hozzÃ¡fÃ©rÃ©ssel szemben.
+
+â€¢ hordozhatÃ³sÃ¡g
+	A program interneten keresztÃ¼l elÃ©rhetÅ‘ legyen Windows XP, vagy Ãºjabb operÃ¡ciÃ³s rendszeren is. 
+	ElsÅ‘sorban Google Chrome bÃ¶ngÃ©szÅ‘vel. 
+	A program hasznÃ¡latÃ¡hoz ne kelljen kÃ¼lÃ¶n szoftvert telepÃ­teni. 
+
+â€¢ felhasznÃ¡lhatÃ³sÃ¡g
+	Minden programfunkciÃ³nak azonnal Ã¡ttekinthetÅ‘nek kell lennie kÃ©zikÃ¶nyv nÃ©lkÃ¼l. 
 
 
-A meglévõ könyveinkrõl szeretnénk egy nyilvántartást Web-es felületen, 
-hogy az érdeklõdõk kényelmes körülmények között, otthonról válogathassanak 
-az üzletünkben megtalálható termékek között.
-A kész Web oldalon legyen egy fejléc az antikvárium nevével, esetleg egy képpel.
-A következõ menüpontok szerepeljenek, az oldal bal oldalán egymás alatt:
 
-a.) Kezdõlap:
-Legyen egy kezdõlap, ahol szerepelhet az üzletrõl egy bemutatkozás, tájékoztatás 
-az oldal látogatói számára, hogy milyen tevékenységet folytatunk.
-Ez az oldal jelenjen meg az oldal megnyitásakor.
+2.2.menedzselÃ©si kÃ¶vetelmÃ©nyek
 
-b.) Könyvlista:
-Erre a menüpontra kattintva jelenjen meg a könyvek listája, alapvetõen rendezés nélkül.
-A könyvekrõl el kell tárolni, illetve meg kell jeleníteni a következõ adatokat:
- a könyv szerzõje,
- a könyv címe, kiadó neve, a kiadás éve, ISBN vagy ISSN (amennyiben elérhetõ)
- kép a könyv borítójáról (amennyiben az adott könyv esetében ez még nem áll rendelkezésre, 
-   akkor egy az antikvárium nevét megjelenítõ ábra szerepeljen),
- a könyv mûfaja,
- egy rövid leírás a könyvrõl.
+â€¢ kÃ¶rnyezeti: 
+	A felhasznÃ¡lÃ¡s helye a Windows 10-t futtatÃ³ szÃ¡mÃ­tÃ³gÃ©p vagy laptop. 
+	Nem kell mÃ¡s szoftverekkel egyÃ¼ttmÅ±kÃ¶dnie.
 
-Legyen lehetõség 
- cím szerinti és 
- szerzõ szerinti rendezésre.
+â€¢ mÅ±kÃ¶dÃ©si: 
+	A programot minden nap reggel indÃ­tjÃ¡k el Ã©s este Ã¡llÃ­tjÃ¡k le, kÃ¶zben vÃ¡ltozÃ³ idÅ‘kÃ¶zÃ¶nkÃ©nt 
+	veszik igÃ©nybe a funkcionalitÃ¡sÃ¡t.
+	EsetenkÃ©nt 2 vagy tÃ¶bb helyen hasznÃ¡lhatjÃ¡k. 
 
-Szeretnénk, hogy mûfaj szerint lehessen keresni a könyvek között: 
- regény, 
+
+3. A felhasznÃ¡lÃ³i felÃ¼let modellje: 
+
+
+A meglÃ©vÅ‘ kÃ¶nyveinkrÅ‘l szeretnÃ©nk egy nyilvÃ¡ntartÃ¡st Web-es felÃ¼leten, 
+hogy az Ã©rdeklÅ‘dÅ‘k kÃ©nyelmes kÃ¶rÃ¼lmÃ©nyek kÃ¶zÃ¶tt, otthonrÃ³l vÃ¡logathassanak 
+az Ã¼zletÃ¼nkben megtalÃ¡lhatÃ³ termÃ©kek kÃ¶zÃ¶tt.
+A kÃ©sz Web oldalon legyen egy fejlÃ©c az antikvÃ¡rium nevÃ©vel, esetleg egy kÃ©ppel.
+A kÃ¶vetkezÅ‘ menÃ¼pontok szerepeljenek, az oldal bal oldalÃ¡n egymÃ¡s alatt:
+
+a.) KezdÅ‘lap:
+Legyen egy kezdÅ‘lap, ahol szerepelhet az Ã¼zletrÅ‘l egy bemutatkozÃ¡s, tÃ¡jÃ©koztatÃ¡s 
+az oldal lÃ¡togatÃ³i szÃ¡mÃ¡ra, hogy milyen tevÃ©kenysÃ©get folytatunk.
+Ez az oldal jelenjen meg az oldal megnyitÃ¡sakor.
+
+b.) KÃ¶nyvlista:
+Erre a menÃ¼pontra kattintva jelenjen meg a kÃ¶nyvek listÃ¡ja, alapvetÅ‘en rendezÃ©s nÃ©lkÃ¼l.
+A kÃ¶nyvekrÅ‘l el kell tÃ¡rolni, illetve meg kell jelenÃ­teni a kÃ¶vetkezÅ‘ adatokat:
+ a kÃ¶nyv szerzÅ‘je,
+ a kÃ¶nyv cÃ­me, kiadÃ³ neve, a kiadÃ¡s Ã©ve, ISBN vagy ISSN (amennyiben elÃ©rhetÅ‘)
+ kÃ©p a kÃ¶nyv borÃ­tÃ³jÃ¡rÃ³l (amennyiben az adott kÃ¶nyv esetÃ©ben ez mÃ©g nem Ã¡ll rendelkezÃ©sre, 
+   akkor egy az antikvÃ¡rium nevÃ©t megjelenÃ­tÅ‘ Ã¡bra szerepeljen),
+ a kÃ¶nyv mÅ±faja,
+ egy rÃ¶vid leÃ­rÃ¡s a kÃ¶nyvrÅ‘l.
+
+Legyen lehetÅ‘sÃ©g 
+ cÃ­m szerinti Ã©s 
+ szerzÅ‘ szerinti rendezÃ©sre.
+
+SzeretnÃ©nk, hogy mÅ±faj szerint lehessen keresni a kÃ¶nyvek kÃ¶zÃ¶tt: 
+ regÃ©ny, 
  krimi, 
- ifjúsági regény, 
+ ifjÃºsÃ¡gi regÃ©ny, 
  mese
- ismeretterjesztõ.
+ ismeretterjesztÅ‘.
 
-Különbözõ megjelenítést szeretnénk, annak megfelelõen, hogy milyen információkra, 
-milyen részletekre kíváncsi az érdeklõdõ:
-Kis ikon: könyvenként viszonylag kis felületen jelenjen meg 
- a könyv szerzõje, címe, mûfaja. Több sor, több oszlop.
-Nagy ikon: könyvenként viszonylag nagy felületen jelenjen meg 
- a könyv borítójának képe, a könyv szerzõje, címe, mûfaja. Több sor, több oszlop.
-Széles nézet: könyvenként az oldal szélességében jelenjen meg
- a könyv borítójának képe, a könyv szerzõje, címe, mûfaja, rövid leírása. Több sor, egy oszlop.
+KÃ¼lÃ¶nbÃ¶zÅ‘ megjelenÃ­tÃ©st szeretnÃ©nk, annak megfelelÅ‘en, hogy milyen informÃ¡ciÃ³kra, 
+milyen rÃ©szletekre kÃ­vÃ¡ncsi az Ã©rdeklÅ‘dÅ‘:
+Kis ikon: kÃ¶nyvenkÃ©nt viszonylag kis felÃ¼leten jelenjen meg 
+ a kÃ¶nyv szerzÅ‘je, cÃ­me, mÅ±faja. TÃ¶bb sor, tÃ¶bb oszlop.
+Nagy ikon: kÃ¶nyvenkÃ©nt viszonylag nagy felÃ¼leten jelenjen meg 
+ a kÃ¶nyv borÃ­tÃ³jÃ¡nak kÃ©pe, a kÃ¶nyv szerzÅ‘je, cÃ­me, mÅ±faja. TÃ¶bb sor, tÃ¶bb oszlop.
+SzÃ©les nÃ©zet: kÃ¶nyvenkÃ©nt az oldal szÃ©lessÃ©gÃ©ben jelenjen meg
+ a kÃ¶nyv borÃ­tÃ³jÃ¡nak kÃ©pe, a kÃ¶nyv szerzÅ‘je, cÃ­me, mÅ±faja, rÃ¶vid leÃ­rÃ¡sa. TÃ¶bb sor, egy oszlop.
 
-c.) Listakezelés:
-Ezt a menüpontot felhasználó névvel és jelszóval lehessen elérni. 
-Itt történjen a könyvek felvitele a rendszerbe. Az „Új könyv felvitele” alatt beírható legyen
- minden szükséges információ az adott könyvrõl. A mûfajt ne lehessen szabadon beírni, 
- hanem egy listából (regény, krimi, ifjúsági regény, mese, ismeretterjesztõ) lehessen választani. 
- Itt esetleg célszerû szerepeltetni egy „egyéb” kategóriát, arra az esetre, 
- ha a rögzítendõ könyv mûfaja egyik kategóriához sem tartozik.
+c.) ListakezelÃ©s:
+Ezt a menÃ¼pontot felhasznÃ¡lÃ³ nÃ©vvel Ã©s jelszÃ³val lehessen elÃ©rni. 
+Itt tÃ¶rtÃ©njen a kÃ¶nyvek felvitele a rendszerbe. Az â€Ãšj kÃ¶nyv felviteleâ€ alatt beÃ­rhatÃ³ legyen
+ minden szÃ¼ksÃ©ges informÃ¡ciÃ³ az adott kÃ¶nyvrÅ‘l. A mÅ±fajt ne lehessen szabadon beÃ­rni, 
+ hanem egy listÃ¡bÃ³l (regÃ©ny, krimi, ifjÃºsÃ¡gi regÃ©ny, mese, ismeretterjesztÅ‘) lehessen vÃ¡lasztani. 
+ Itt esetleg cÃ©lszerÅ± szerepeltetni egy â€egyÃ©bâ€ kategÃ³riÃ¡t, arra az esetre, 
+ ha a rÃ¶gzÃ­tendÅ‘ kÃ¶nyv mÅ±faja egyik kategÃ³riÃ¡hoz sem tartozik.
 
 d.) Kapcsolat:
-Itt szerepeljenek az üzlet elérhetõségei.
-Fanatikvárium
-cím: 3300 Eger, Dobó tér 3.
-e-mail cím: fanatikvarium@fanatikvarium.hu
+Itt szerepeljenek az Ã¼zlet elÃ©rhetÅ‘sÃ©gei.
+FanatikvÃ¡rium
+cÃ­m: 3300 Eger, DobÃ³ tÃ©r 3.
+e-mail cÃ­m: fanatikvarium@fanatikvarium.hu
 telefon: 0620/111-2222
 
-A Web oldal alján legyen a fejléccel azonos színben egy lábléc, 
-a „Köszönjük, hogy ellátogatott oldalunkra!” felirattal.
+A Web oldal aljÃ¡n legyen a fejlÃ©ccel azonos szÃ­nben egy lÃ¡blÃ©c, 
+a â€KÃ¶szÃ¶njÃ¼k, hogy ellÃ¡togatott oldalunkra!â€ felirattal.
 
 
 
