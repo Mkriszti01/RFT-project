@@ -1,3 +1,29 @@
 Rendszerterv
 
 Ezt Kriszti részletezi...
+
+1. Felhasználói felületek
+
+1.1 Kezdőlap
+	Terv lásd Design/Screenschot/index1.01RTF
+
+1.2 Könyvlista
+	Bejelentkezés nélkül elérhető felület. 
+	Szűrési lehetőségek. 
+	
+1.3 Bejelentkezés
+	Név és jelszó megadása után érhető el a könyvlista kezelésére szolgáló felület, ahol
+	lehetőség van a könyvek feltöltésére és törlésére. 
+	Az itt megjelenő adatokat az adatbázis felépítéséban részletezzük. 
+	
+
+1.4 Impressum
+	Bejelentkezés nélkül elérhető felület.
+	Az Antikvárium adatait. 
+
+
+2. Logikai rendszerterv
+
+
+3. Fizikai rednszerterv
+
