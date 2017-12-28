@@ -1,29 +1,84 @@
 Rendszerterv
 
-Ezt Kriszti részletezi...
+
+Bevezetés
+
+Jelen dokumentáció célja a Követelményspecifikációban definiált követelményrendszer, objektumok, szerepkörök továbbgondolása, 
+leképezése egy a fejlesztők számára használható, rendszerszemléletű, megvalósítás központú és kellő mélységű rendszertervvé.
+Bemutatjuk a rendszer fizikai szintű adatbázistervét, képernyőtervek segítségével szemléltetjük a kialakítandó felhasználói felületet. 
+
+
 
 1. Felhasználói felületek
-
+	A tervezés során egyeztettünk a Fanatikvárium munkatársaival, ezúton is szem előtt tartottuk a felhasználói igényeket és az elvárt funkcionalitást. 
+	
+	Belépés a rendszerbe
+	A felhasználó előszőr a kezdőlappal találkozik. A nem regisztált felhasználók számára az Impresszum (lásd lentebb) és a Könyvlista (lásd lentebb)
+	funkció érhetőek el. A regisztált felhasználók felhasználói név és jelszó megadásával módosíthatják a Fanatikvárium könyves adatbázisát. 	
+	A képernyőterveket nem jogosultság szerinti, hanem funkcionális bontásban tárgyaljuk. 
+		
+	A rendszer használata
+	A rendszerben a következő funkciók közül lehet választani:
+	- Kezdőlap
+	- Könylista
+	- Könyvek kezelése
+	- Impresszum
+	- 
+	A továbbiakban a különböző funkciókat részletezzük, azok leírásával és képernyőtervével, valamint a felhasználói jogosultságokkal. 
+	
 1.1 Kezdőlap
-	Terv lásd Design/Screenschot/index1.01RTF
+	Mindenki számára elérhető felület, melynek célja a Fanatikvárium bemutatása és munkásságának ismertetése. Itt megjelnek az elérhetőségek is. 
+	Tartalma:
+	- Rövid leírás a Fanatikvárium munkásságáról. 
+	- Elérhetőségek
+	- Menü
+	- ...
+	
+	Képernyő terv: lásd Design/Screenschot/index1.01RTF
 
 1.2 Könyvlista
-	Bejelentkezés nélkül elérhető felület. 
-	Szűrési lehetőségek. 
+	Minden felhasználó számára elérhető felület. A köyveket soronként hármas bontásban vannak rendsezve. 
+	Lehetőség van A név és a cím szerinti rendezésre valamint a név és a cím szerinti szűrésre.
+	A rendezé egy gombra kattintásra történik, a gomb felirata jelzi a funkviót. 
+	A szűrés esetében ki kell választani, hogy  mely adaban kell elvégezni a szűrést majd a kereső szót kell megadni. 
+		
+	Képernyő terv: lásd Design/Screenschot/konyvlista.0RTF
 	
 1.3 Bejelentkezés
 	Név és jelszó megadása után érhető el a könyvlista kezelésére szolgáló felület, ahol
 	lehetőség van a könyvek feltöltésére és törlésére. 
-	Az itt megjelenő adatokat az adatbázis felépítéséban részletezzük. 
+	Az itt megjelenő adatokat az adatbázis felépítésében részletezzük. 
+	
+	Képernyő terv: lásd Design/Screenschot/ujkonyv_1.0_RTF
 	
 
 1.4 Impressum
-	Bejelentkezés nélkül elérhető felület.
-	Az Antikvárium adatait. 
+	Bejelentkezés nélkül elérhető felület, mely a Fanatikvárium hivatalos adatit tartalmazza. 
+	Itt jelenik meg a cím és a tefonszám is, valamint egy Foto az antikváriumról. 
+	
+	Képernyő terv: .......
 
+2. Adatbázis terv
+	
+	A 'books' tábla felépítése: 
+	- ID, típusa: ID, Maximálisan 10 karakter, megadása kötelező, nem vehet fel null étéket. 
+		??? generált vagy kézzel megadott ????
+	- Szerző, típusa: varhchar, maximálisan 255 karakter, nem vehet fel null értéket.
+	- Cím, típusa: varhchar, maximálisan 255 karakter, nem vehet fel null értéket.
+	- Műfaj típusa: text, megadása nem kötelező.
+	- Leírás típusa: text, megadása nem kötelező.
+	- Kép típusa: varhchar, maximálisan 255 karakter, aminnyiben nem történik képfeltöltés egy 
+		alapértelmezett kép jelenik meg ( a Fanatikvárium logója). 
+		
+	
+	
+	
+	
+	
 
-2. Logikai rendszerterv
+3. Logikai rendszerterv
 
+	
 
-3. Fizikai rednszerterv
+4. Fizikai rednszerterv
 
