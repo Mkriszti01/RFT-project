@@ -10,7 +10,8 @@ Bemutatjuk a rendszer fizikai szintű adatbázistervét, képernyőtervek segít
 
 
 1. Felhasználói felületek
-	A tervezés során egyeztettünk a Fanatikvárium munkatársaival, ezúton is szem előtt tartottuk a felhasználói igényeket és az elvárt funkcionalitást. 
+	A tervezés során egyeztettünk a Fanatikvárium munkatársaival, ezúton is szem előtt tartottuk a felhasználói igényeket 
+	és az elvárt funkcionalitást. 
 	
 	Belépés a rendszerbe
 	A felhasználó előszőr a kezdőlappal találkozik. A nem regisztált felhasználók számára az Impresszum (lásd lentebb) és a Könyvlista (lásd lentebb)
@@ -67,7 +68,7 @@ Bemutatjuk a rendszer fizikai szintű adatbázistervét, képernyőtervek segít
 	- Cím, típusa: varhchar, maximálisan 255 karakter, nem vehet fel null értéket.
 	- Műfaj típusa: text, megadása nem kötelező.
 	- Leírás típusa: text, megadása nem kötelező.
-	- Kép típusa: varhchar, maximálisan 255 karakter, aminnyiben nem történik képfeltöltés egy 
+	- Kép típusa: varhchar, maximálisan 255 karakter, amennyiben nem történik képfeltöltés egy 
 		alapértelmezett kép jelenik meg ( a Fanatikvárium logója). 
 		
 	
