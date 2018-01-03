@@ -13,9 +13,9 @@ Bemutatjuk a rendszer fizikai szintű adatbázistervét, képernyőtervek segít
 	A tervezés során egyeztettünk a Fanatikvárium munkatársaival, ezúton is szem előtt tartottuk a felhasználói igényeket 
 	és az elvárt funkcionalitást. 
 	
-	Belépés a rendszerbe
-	A felhasználó előszőr a kezdőlappal találkozik. A nem regisztált felhasználók számára az Impresszum (lásd lentebb) és a Könyvlista (lásd lentebb)
-	funkció érhetőek el. A regisztált felhasználók felhasználói név és jelszó megadásával módosíthatják a Fanatikvárium könyves adatbázisát. 	
+	Jogosultságok
+	A felhasználó előszőr a kezdőlappal találkozik. Az oldal látogatói számára a Kapcsolat (lásd lentebb) és a Könyvlista (lásd lentebb)
+	funkció érhetőek el. Az antikvárium munkatársai adott felhasználói név és jelszó megadásával új könyveket vihetnek fel a Fanatikvárium könyves adatbázisába. 	
 	A képernyőterveket nem jogosultság szerinti, hanem funkcionális bontásban tárgyaljuk. 
 		
 	A rendszer használata
@@ -23,25 +23,25 @@ Bemutatjuk a rendszer fizikai szintű adatbázistervét, képernyőtervek segít
 	- Kezdőlap
 	- Könylista
 	- Könyvek kezelése
-	- Impresszum
-	- 
-	A továbbiakban a különböző funkciókat részletezzük, azok leírásával és képernyőtervével, valamint a felhasználói jogosultságokkal. 
+	- Kapcsolat
+
+A továbbiakban a különböző funkciókat részletezzük, azok leírásával és képernyőtervével, valamint a felhasználói jogosultságokkal. 
 	
 1.1 Kezdőlap
-	Mindenki számára elérhető felület, melynek célja a Fanatikvárium bemutatása és munkásságának ismertetése. Itt megjelnek az elérhetőségek is. 
+	Mindenki számára elérhető felület, melynek célja a Fanatikvárium bemutatása és munkásságának ismertetése. Az itt megjelenítendő szöveget a megrendelő adja meg.
 	Tartalma:
 	- Rövid leírás a Fanatikvárium munkásságáról. 
-	- Elérhetőségek
-	- Menü
-	- ...
 	
 	Képernyő terv: lásd Design/Screenschot/index1.01RTF
 
 1.2 Könyvlista
-	Minden felhasználó számára elérhető felület. A köyveket soronként hármas bontásban vannak rendsezve. 
-	Lehetőség van A név és a cím szerinti rendezésre valamint a név és a cím szerinti szűrésre.
-	A rendezé egy gombra kattintásra történik, a gomb felirata jelzi a funkviót. 
-	A szűrés esetében ki kell választani, hogy  mely adaban kell elvégezni a szűrést majd a kereső szót kell megadni. 
+	Minden felhasználó számára elérhető felület. 
+	Lehetőség van szerző és cím szerinti rendezésre, valamint a műfaj szerinti szűrésre.
+	A megjelenítés menüpontban az általunk kívánt részletezettség szerint választhatunk a következők közül:
+	- Kis ikon - 4 oszlopba rendezve, szerző, cím és műfaj információval,
+	- Nagy ikon - 3 oszlopba rendezve, borító kép, szerző, cím és műfaj információval,
+	- Széles nézet - teljes szélességben (1 oszlopban), borító kép, szerző, cím, műfaj és rövid leírás információval.
+	A rendezés, a műfaj szerinti szűrés, és a megjelenítés legördülő menükből érhető el. A funkciók kombinálhatók. 
 		
 	Képernyő terv: lásd Design/Screenschot/konyvlista.0RTF
 	
