@@ -22,7 +22,7 @@ Bemutatjuk a rendszer fizikai szintű adatbázistervét, képernyőtervek segít
 	A rendszerben a következő funkciók közül lehet választani:
 	- Kezdőlap
 	- Könylista
-	- Könyvek kezelése
+	- Könyvek felvitele
 	- Kapcsolat
 
 A továbbiakban a különböző funkciókat részletezzük, azok leírásával és képernyőtervével, valamint a felhasználói jogosultságokkal. 
@@ -30,7 +30,7 @@ A továbbiakban a különböző funkciókat részletezzük, azok leírásával �
 1.1 Kezdőlap
 	Mindenki számára elérhető felület, melynek célja a Fanatikvárium bemutatása és munkásságának ismertetése. Az itt megjelenítendő szöveget a megrendelő adja meg.
 	Tartalma:
-	- Rövid leírás a Fanatikvárium munkásságáról. 
+	- Rövid leírás a Fanatikvárium munkásságáról, céljairól. 
 	
 	Képernyő terv: lásd Design/Screenschot/index1.01RTF
 
@@ -45,19 +45,18 @@ A továbbiakban a különböző funkciókat részletezzük, azok leírásával �
 		
 	Képernyő terv: lásd Design/Screenschot/konyvlista.0RTF
 	
-1.3 Bejelentkezés
+1.3 Könyvek felvitele
 	Név és jelszó megadása után érhető el a könyvlista kezelésére szolgáló felület, ahol
-	lehetőség van a könyvek feltöltésére és törlésére. 
+	lehetőség van a könyvek feltöltésére. 
 	Az itt megjelenő adatokat az adatbázis felépítésében részletezzük. 
 	
 	Képernyő terv: lásd Design/Screenschot/ujkonyv_1.0_RTF
 	
 
-1.4 Impressum
-	Bejelentkezés nélkül elérhető felület, mely a Fanatikvárium hivatalos adatit tartalmazza. 
-	Itt jelenik meg a cím és a tefonszám is, valamint egy Foto az antikváriumról. 
+1.4 Kapcsolat
+	Bejelentkezés nélkül elérhető felület, mely a Fanatikvárium elérhetőségeit tartalmazza. 
+	Itt jelenik meg a cím és a telefonszám is, valamint egy Foto az antikváriumról. 
 	
-	Képernyő terv: .......
 
 2. Adatbázis terv
 	
