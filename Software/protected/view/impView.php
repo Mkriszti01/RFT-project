@@ -3,7 +3,7 @@
 
 <?php 
 
-	echo $nev . "<br>" . $mail; 
+	echo $nev . "<br>" . $cim . "<br>" . $mail; 
 
 ?>
     </div> 

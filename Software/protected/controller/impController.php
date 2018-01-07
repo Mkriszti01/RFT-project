@@ -16,13 +16,14 @@ class impController {
 	
 	public function handle($menupont) {
 		$nev = $this -> modell -> getName();
+		$cim = $this -> modell -> getAdress();
 		$mail = $this -> modell -> getMailAdress();
 		$menu = $this -> modell2 -> menulekerdez();
 		$this -> render($nev, $mail, $menu, $menupont);
 		
 	}
 	
-	public function render($nev, $mail, $menu, $menupont) {
+	public function render($nev, $cim, $mail, $menu, $menupont) {
 		
 		include_once "protected/view/head.php";
 		include_once "protected/view/menu.php";
