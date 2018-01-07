@@ -1,9 +1,9 @@
-Jegyzőkönyv
+﻿Jegyzőkönyv
 
 Megbeszélés témája: Kezdőlap véglegesítése, logo elfogadása
 Helyszíne: 3300 Eger, Érsek u. 6.
 Dátum/Időpont: 2018. 01. 06.
-Készítette: 
+Készítette: EWT Egri Web Team Kft. 
 Kapja: Minden résztvevő
 Következő időpont: 2018. 01. 10.
 
@@ -11,9 +11,9 @@ Következő időpont: 2018. 01. 10.
 Résztvevők: 
 
 Ügyfél
-Mizera Krisztina			Fanatikvárium ügyintéző
+Mizera Krisztina			Fanatikvárium Kft. ügyintéző
 
-Szoftverfejlesztő cég			EWT Kft
+Szoftverfejlesztő cég			EWT Egri Web Team Kft. 
 Jankuráné Szabó Csilla 			Backend fejlesztő / Megbeszélés moderátora 
 Lovász Ferenc				Tesztelés
 Sas Attila				Frontend fejlesztő 

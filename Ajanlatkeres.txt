@@ -1,9 +1,9 @@
-Fanatikvárium Kft
+﻿Fanatikvárium Kft
 3300 Eger, Dobó tér 3.
 
 
 Címezett: 
-Project Kft
+EWT Egri Web Team Kft. 
 Eger, Érsek u. 6.
 
 Tárgy: Ajánlatkérő a Fanatikvárium Kft. nyilvántartási rendszerének fejlesztésére
@@ -42,7 +42,7 @@ Tárgy: Ajánlatkérő a Fanatikvárium Kft. nyilvántartási rendszerének fejl
 
 7. Ajánlattal szembeni követelmények
 	Az ajánlattételi határidő: 2017. december 29. Az ajánlattevő előteljesítésre jogosult.
-	Az ajánlat benyújtásának helye: EKE C épület, 3300 Eger, Leányka utca 16.
+	Az ajánlat benyújtásának helye: 3300 Eger, Dobó tér 3.
 	Az ajánlattétel nyelve magyar. Amennyiben az ajánlattevő valamely dokumentumot nem magyar nyelven kívánja benyújtani,
 	gondoskodnia kell a felelős fordításról.
 	Az ajánlat benyújtandó 1 db eredeti példányban papír alapon, és egy eredetivel mindenben megegyező digitális 
