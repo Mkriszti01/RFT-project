@@ -12,10 +12,9 @@ Működésünk során kínálatunk folyamatosan változik. Árukészletünk aká
 Internetes oldalunkkal arra vállalkozunk, hogy a világhálón is áttekinthesse a széles közönség aktuális ajánlatainkat. Ezzel azt szeretnénk elérni, hogy mindenki rátaláljon a legjobb könyvekre, és a legjobb könyvek is rátaláljanak olvasóikra
 </p><p>
 Nézzen szét nálunk, válogasson széleskörű kínálatunk közt. Ha mégsem találja a könyvet, amit régóta keres vegye fel velünk a kapcsolatot és mi segítünk felkutatni, 
-</p><p>
-“Szeretem a könyvet, mert holt betűiben benne van minden, ami elmúlt, és minden, ami lesz.”
-</p><p>
-Fekete István
+</p><p id=idezet>
+“Szeretem a könyvet, mert holt betűiben benne van minden, ami elmúlt, és minden, ami lesz.”  (Fekete István)
+
 </p><p>
 </p><p>
 Barátsággal,
