@@ -19,7 +19,7 @@ class impController {
 		$cim = $this -> modell -> getAdress();
 		$mail = $this -> modell -> getMailAdress();
 		$menu = $this -> modell2 -> menulekerdez();
-		$this -> render($nev, $mail, $menu, $menupont);
+		$this -> render($nev,$cim, $mail, $menu, $menupont);
 		
 	}
 	
