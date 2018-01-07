@@ -1,105 +1,119 @@
 body {
 	padding: 0;
 	margin: 0;
-	background-position: top left;
+	background-position: center;
 	background-repeat: repeat;
-  font-family: Arial,Helvetica,sans-serif;
-  line-height: 22px;
+  	font-family: Arial,Helvetica,sans-serif;
+  	line-height: 22px;
+	background-color: rgb(72,72,72);
 }
 
 #main {
 	width: 1100px;
-	margin: 0 auto;
-	background-color: #C6DDF1;
+	margin: 20px auto;
+	background-color: rgb(250,208,47);
 	position: relative;
-        box-shadow: 0 0 25px #cccccc;
-	-webkit-box-shadow: 0 0 25px #cccccc;
-	-moz-box-shadow: 0 0 25px #cccccc;
+        box-shadow: 0 0 10px #cccccc;
+	-webkit-box-shadow: 0 0 10px #cccccc;
+	-moz-box-shadow: 0 0 10px #cccccc;
 }
 
-
 #header {
-	background-image: url(../images/fest.jpg);
+	background-image: url(../images/fest.png);
 	background-size: 50% 160px;
-	background-color: #326DA3;
-	background-position: top right;
+	background-color: rgb(246,146,41);
+	background-position: center;
 	background-repeat: no-repeat;
-	height: 150px;
-	padding: 10px 0 0 20px;
+	height: 200px;
+	padding: 20px 0 0 20px;
 	position: relative;
+	margin: 0 auto;
+	border-width: 3px;
+	border-bottom-left-radius: 20%;
+	border-bottom-right-radius: 20%;
+	border-top: bottom;
+	border-bottom-style: solid;
+    border-color: whitesmoke;
+	border-bottom-style:groove;
 }
 
 #header #h1 {
-	font-size: 54px;
+	font-size: 20px;
 	font-weight: bold;
 	color: #fff;
+	text-align: center;
+	margin-bottom: 30px;
 }
 
 #main #menu {
-        width: 180px;
-	background-position: bottom left;
-	background-repeat: no-repeat;
-	background-color: #8CC1F2;
-	padding: 0px 0 0 0;
-        float:left;
+	margin: 40px 0;
+    width: 220px;
+	padding: 0 0 0 0;
+    float:left;
+	border-width: 3px;
+	border-top-style: groove;
+	border-top-right-radius: 5%;
+	border-bottom-right-radius: 5%;
+	border-right-style: groove;
+	border-bottom-style: groove;
+    border-color: whitesmoke;
+	background-color: rgba(246,146,41,0.45);
 }
 
 #main #menu ul {
-	padding: 0;
 	margin: 0;
-	list-style-type: none;
 }
 
 #main #menu ul li {
-        width: 180px;
-	padding: 0;
-	margin: 0;
-	float: left;
-        font-size: 16px;
-        border-top: 2px solid #fff;
-        border-bottom: 2px solid #fff;
-        background-color: #8CC1F2;
+    width: 150px;
+	float: center;
+    font-size: 22px;
+	list-style-type: none;
 }
 
 #main #menu ul li.active {
-	background-color: #5aa;
+	padding: 0;
 }
 
 #main #menu ul li a {
-	padding: 0 15px;
-	line-height: 22px;
-	color: #000;
+	line-height: 40px;
+	color: rgb(72,72,72);
 	text-decoration: none;
-	display: block;
+	text-shadow: 1px 1px whitesmoke;
+	transition: all .2s;
 }
 
 #main #menu ul li a:hover {
-	text-decoration: none;
-        color: #fff;
-	background-color: #326DA3;
+	text-decoration: underline;
+	text-shadow: 2px 2px grey;
+    color: whitesmoke;
+	padding: 10px;
+	transition: all .3s;
 }
 
 #main #content_lista {
-        width: 710px;
-        float: left;
-        padding: 20px 0 30px 20px;
+    width: 710px;
+    float: left;
+	padding: 20px 0 30px 20px;
 }
 
 #main #content {
-        width: 750px;
-        float: left;
-        padding: 20px 10px 30px 20px;
+    width: 750px;
+	float: left;
+    padding: 20px 10px 20px 40px;
+	color: rgb(72,72,72);
 }
 
 #menu #current {
-    background-color: green;
+    background-color: rgb(250,208,47);
 }
 
 .konyv0 { 
-    background-color: #abc;
-    border-style: solid;
-    border-color: red;
-    color: white;
+    background-color: rgb(246,146,41);
+	border: 3px;
+    border-style: groove;
+    border-color: whitesmoke;
+    color: whitesmoke;
     padding: 20px;
     margin: 5px;
     width: 130px;
@@ -110,58 +124,67 @@ body {
 .konyv0 img { display: none; }
 
 .konyv0 .szerzo {
-	color: blue;
+	color: rgb(72,72,72);
 	font-size: 14px;
 	font-weight: bold;
  }
 
 .konyv0 .cim {
-	color: red;
+	color: whitesmoke;
+	text-shadow: 1px 1px grey;
 	font-size: 18px;
 	font-weight: bold;
  }
 
-.konyv0 .mufaj { color: black; }
-.konyv0 .leiras { color: black; display: none; }
+.konyv0 .mufaj { color: rgb(72,72,72); }
+.konyv0 .leiras { color: rgb(72,72,72); display: none; }
 
 .konyv1 { 
-    background-color: #FDFF4B;
-    border-style: solid;
-    border-color: blue;
-    color: black;
+    background-color: rgb(246,146,41);
+    border-style: groove;
+    border-color: whitesmoke;
+    color: rgb(72,72,72);
     margin: 10px 10px 0 0;
     padding: 10px;
     width: 214px;
     height: 310px;
     float: left;
+	transition: all .5s;
+}
+.konyv1:hover{
+	transform: scale(1.1);
+	transition: all .2s;
 }
 
 .konyv1 img { 
+	margin: 0 auto;
+	border: 3px groove whitesmoke;
 	display: block;
 	width: 160px;
 	height: 220px;
 }
 
 .konyv1 .szerzo {
-	color: red;
+	color: rgb(72,72,72);
 	font-size: 16px;
 	font-weight: bold;
  }
 
 .konyv1 .cim {
-	color: blue;
+	color: whitesmoke;
+	text-shadow: 1px 1px grey;
 	font-size: 20px;
 	font-weight: bold;
  }
 
-.konyv1 .mufaj { color: black; }
-.konyv1 .leiras { color: black; display: none; }
+.konyv1 .mufaj { color: rgb(72,72,72); }
+.konyv1 .leiras { color: rgb(72,72,72); display: none; }
 
 .konyv2 { 
-    background-color: #182A67;
-    border-style: solid;
-    border-color: yellow;
-    color: black;
+    background-color: rgb(246,146,41);
+    border-style: groove;
+    border-color: whitesmoke;
+    color: rgb(72,72,72);
     margin: 20px 0 20px 0;
     padding: 20px;
     width: 100%;
@@ -179,27 +202,36 @@ body {
 
 
 .konyv2 .szerzo {
-	color: yellow; 
+	color: rgb(72,72,72); 
 	font-size: 18px;
 	font-weight: bold;
 }
 
 .konyv2 .cim {
-	color: white;
-	font-size: 20px;
+	color: whitesmoke;
+	text-shadow: 1px 1px grey;
+	font-size: 24px;
 	font-weight: bold;
  }
 
-.konyv2 .mufaj { color: yellow; }
-.konyv2 .leiras { color: white; display: block; }
+.konyv2 .mufaj { color: rgb(72,72,72); }
+.konyv2 .leiras { color: rgb(72,72,72); display: block; }
 
 
 #footer {
-	background-color: #326DA3;
-	background-position: top left;
+	background-color: rgb(246,146,41);
+	background-position: right;
 	background-repeat: no-repeat;
+	text-align: center;
+	text-shadow: 10px;
+	border-top: groove;
+    border-color: whitesmoke;
+	border-top-left-radius: 5%;
+	border-top-right-radius: 5%;
+	text-shadow: 1px 1px grey;
 	color: #fff;
+	height: 200px;
 	padding: 10px 0 10px 20px;
-        clear: both;
+    clear: both;
 }
 
