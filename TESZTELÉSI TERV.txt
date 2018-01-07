@@ -1,0 +1,24 @@
+{TESZTELÉSI TERV
+
+
+Az Mkriszti01/RFT- project megvalósulása utáni – a végső üzembe helyezés előtti- első olyan átvizsgálás, amellyel üzemi körülmények között próbáljuk tesztelni, vizsgálni, működtetni a projectet!
+ A vizsgálat több részből áll, mely részek vizsgálata szorosan követi a project működését és próbál rávilágítani az egyes részek hiányosságaira, esetleges problémáira.
+Amennyiben a tesztelés során előkerülnek olyan problémák, amelyek akadályozzák, terhelik, lassítják a project működését- úgy ezen problémák kijavítását soron kívül meg kell oldani.
+Valójában a tesztelési terv a project  teljes élettartamában szükséges és aktuális feladatokat lát el- mivel jelen project interaktív pozícióban mozog- vagyis a működése során folyamatos átalakulások, fel-le töltések jellemzik a működését!
+A tesztelési terv –nem mélyreható, mindent átfogó vizsgálat és nem a project kódjait teszteli- hanem kifejezetten a project használóinak szemszögéből vizsgálja annak folyamatos és az elvárásoknak megfelelő működését.
+Ezek alapján a tesztelési tervnek elsősorban a menü és a funkciók működésének vizsgálata a főfeladata.
+Természetesen a tesztelés során felmerülő, előforduló és keletkező egyéb hibák, problémák feltárása és kijavítása is szükséges és nem kihagyható feladat.
+Amennyiben keletkeznek ilyen jellegű feltárt problémák, azokat a tesztelés és vizsgálat után azonnal meg kell szüntetni és biztosítani kell a project stabil és biztonságos működését, amely a felhasználók jogos igénye a project működésével szemben.
+A tesztelési terv végrehajtásának ütemezése is a fent leirt feladatokat tartja szem előtt és a végrehajtás során az egyes vizsgálati blokkok tesztelése is a vizsgálati blokk fontosságához és feladatához igazodik.
+A tesztelési tervben foglaltak végrehajtása és a stabil, megbízható működés után jegyzőkönyv készül a tesztelésről, amely jegyzőkönyv bekerül a project rendszer mappái közé.
+A jegyzőkönyv a kötelező tartalmakon, adatokon túl tartalmazza a tesztelés során feltárt problémákat és ezen problémák megoldására tett és végrehajtott javaslatokat is és megállapítást tesz a tesztelés eredményére majd összegzi a tesztelés teljes folyamatát.
+A tesztelési tervben szereplő feladatok fontossága és szükségessége miatt elkerülhetetlen annak időszakos és alkalomszerű végrehajtása.
+A végrehajtásért a projectet üzemeltetők vagy ezzel a feladattal megbízott személy/ek/ a felelősök.
+A tesztelési terv meghatározza a tesztelés folyamatát is, amely a következőképpen alakul.
+Elsősorban a felhasználó szemszögéből inditva a tesztelés folyamatát- tehát első lépésként a project indítása, futtatása és az első optikai vélemények meghatározása lesz a feladat.
+Ezek után a kezdőképernyő átnézése, menük, funkciók kipróbálása és tesztelése következhet.
+Harmadik lépésben már kicsit mélyebb vizsgálatokat tervezünk, amelyek a szolgáltatás működésével is kapcsolatban vannak és külső felhasználóként  próbáljuk „üzemeltetni” a projectet.
+Életszerű – működési és hibás- felhasználói megoldásokat produkálva teszteljük a project működését.
+Következő lépésként a project külső- belső szolgáltatásait vesszük górcső alá és teszteljük őket.
+A kapott eredményeket, tapasztalatokat, problémákat megbeszélve és a megoldásukra tett megfelelő javaslatokat végrehajtjuk majd jegyzőkönyvben rögzítjük.
+A jegyzőkönyv dokumentálása után célszerűnek tartjuk egy újabb, gyors teszt lefuttatását, amelyből kiderül, hogy az előző teszt és annak hibáinak kijavítása során nem vétettünk újabb hibákat és nem nehezítettük meg a project problémamentes üzemelését.
