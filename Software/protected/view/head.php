@@ -14,7 +14,7 @@
 	
 			<div id="main">
 		<div id="header">
-			<h1 id="h1">Fanatikvárium</h1>
+			<h1 id="h1"></h1>
 		</div>
 
 	

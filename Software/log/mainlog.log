@@ -82,3 +82,48 @@
 2018-Jan-07, 10:13:28 log: Sikeres belépés az adatbázisba.
 2018-Jan-07, 10:13:28 log: Lekérdezés - sql: select * from menu
 2018-Jan-07, 10:13:28 log: Kilépés az adatbázisból.
+2018-Jan-07, 11:16:42 log: Sikeres belépés az adatbázisba.
+2018-Jan-07, 11:16:42 log: Lekérdezés - sql: select * from books
+2018-Jan-07, 11:16:42 log: Kilépés az adatbázisból.
+2018-Jan-07, 11:16:42 log: Sikeres belépés az adatbázisba.
+2018-Jan-07, 11:16:42 log: Lekérdezés - sql: select * from menu
+2018-Jan-07, 11:16:42 log: Kilépés az adatbázisból.
+2018-Jan-07, 11:18:43 log: Sikeres belépés az adatbázisba.
+2018-Jan-07, 11:18:43 log: Lekérdezés - sql: select * from books
+2018-Jan-07, 11:18:43 log: Kilépés az adatbázisból.
+2018-Jan-07, 11:18:43 log: Sikeres belépés az adatbázisba.
+2018-Jan-07, 11:18:43 log: Lekérdezés - sql: select * from menu
+2018-Jan-07, 11:18:43 log: Kilépés az adatbázisból.
+2018-Jan-07, 11:19:26 log: Sikeres belépés az adatbázisba.
+2018-Jan-07, 11:19:26 log: Lekérdezés - sql: select * from books
+2018-Jan-07, 11:19:26 log: Kilépés az adatbázisból.
+2018-Jan-07, 11:19:26 log: Sikeres belépés az adatbázisba.
+2018-Jan-07, 11:19:26 log: Lekérdezés - sql: select * from menu
+2018-Jan-07, 11:19:26 log: Kilépés az adatbázisból.
+2018-Jan-07, 11:19:29 log: Sikeres belépés az adatbázisba.
+2018-Jan-07, 11:19:29 log: Lekérdezés - sql: select * from books
+2018-Jan-07, 11:19:29 log: Kilépés az adatbázisból.
+2018-Jan-07, 11:19:29 log: Sikeres belépés az adatbázisba.
+2018-Jan-07, 11:19:29 log: Lekérdezés - sql: select * from menu
+2018-Jan-07, 11:19:29 log: Kilépés az adatbázisból.
+2018-Jan-07, 11:19:45 log: Sikeres belépés az adatbázisba.
+2018-Jan-07, 11:19:45 log: Lekérdezés - sql: select * from books
+2018-Jan-07, 11:19:45 log: Kilépés az adatbázisból.
+2018-Jan-07, 11:19:45 log: Sikeres belépés az adatbázisba.
+2018-Jan-07, 11:19:45 log: Lekérdezés - sql: select * from menu
+2018-Jan-07, 11:19:45 log: Kilépés az adatbázisból.
+2018-Jan-07, 11:22:11 log: Sikeres belépés az adatbázisba.
+2018-Jan-07, 11:22:11 log: Lekérdezés - sql: select * from menu
+2018-Jan-07, 11:22:11 log: Kilépés az adatbázisból.
+2018-Jan-07, 11:23:00 log: Sikeres belépés az adatbázisba.
+2018-Jan-07, 11:23:00 log: Lekérdezés - sql: select * from books
+2018-Jan-07, 11:23:00 log: Kilépés az adatbázisból.
+2018-Jan-07, 11:23:00 log: Sikeres belépés az adatbázisba.
+2018-Jan-07, 11:23:00 log: Lekérdezés - sql: select * from menu
+2018-Jan-07, 11:23:00 log: Kilépés az adatbázisból.
+2018-Jan-07, 11:23:02 log: Sikeres belépés az adatbázisba.
+2018-Jan-07, 11:23:02 log: Lekérdezés - sql: select * from menu
+2018-Jan-07, 11:23:02 log: Kilépés az adatbázisból.
+2018-Jan-07, 11:23:05 log: Sikeres belépés az adatbázisba.
+2018-Jan-07, 11:23:05 log: Lekérdezés - sql: select * from menu
+2018-Jan-07, 11:23:05 log: Kilépés az adatbázisból.
