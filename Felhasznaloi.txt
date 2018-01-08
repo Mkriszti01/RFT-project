@@ -1,0 +1,59 @@
+Felhasználói kézikönyv
+
+Tartalma:
+Bevezető és általános leírás rendszerről
+Az adatok bevitelének lehetőségei
+A könyvek listája: lekérdezési lehetőségek
+Fejlesztési lehetőségek
+
+
+
+1. Bevezető és általános leírás rendszerről
+
+	Jelen dokumentáció célja a Fanatikvárium Kft. nyilvántartási rendszerének 
+	bemutatása és útmutató a legoptimálisabb használathoz. 
+	A rendszer a különböző internetes felületekről érhető el elsősorban asztali 
+	számítógépen vagy laptopon. 
+	A rendszerben a következő funkciók közül lehet választani:
+		- Kezdőlap
+		- Könyvlista
+		- Listakezelő
+		- Kapcsolat	
+	A nyitó oldal felépítése: 
+	A fejléc tartalmazza a Fanatikvárium logóját. 
+	A lábjegyzet az e-mail és a Facebook profil elérhetőségei találhatóak. 
+	Bal oldalon a menüben (navigációs rész) kattintással lehet választani (jobb egérgomb). 
+	A kezdőlap tartalmi részén jeleni meg a Fanatikváriumról szóló rövid leírás,
+	mely összefoglalja az antikvárium munkásságának profilját. 
+		Képernyő kép: lásd Design/Screenschot/index1.01RTF
+
+
+2. Az adatok bevitelének lehetőségei
+
+	A könyvlista kezelésére szolgáló felület a „Listakezelő” menüpont alatt található, 
+	ahol lehetőség van a könyvek feltöltésére. 
+	Itt történik a könyvek felvitele a rendszerbe. Az „Új könyv felvitele” alatt beírható 
+	minden szükséges információ az adott könyvről. A műfajt nem lehet szabadon beírni, 
+	hanem egy listából (regény, krimi, ifjúsági regény, mese) lehet választani. 
+	A könyvek címét, szerzőjét és egy rövid leírást (maximum 255 karakter) szabadon lehet beírni. 
+	Lehetőség van egy .jpg kiterjesztésű kép feltöltésére is, 
+	amennyiben ez nem történik meg a kép helyén a Fanatikvárium logója jelenik meg. 
+		Képernyő kép: lásd Design/Screenschot/ujkonyv_1.0_RTF
+
+3. A könyvek listája: lekérdezési lehetőségek
+	A „könyvlista” menüpontra kattintva az összes felvett könyv listája jelenik meg. Ez az oldal 
+	tükrözi az antikvárium aktuális készletét. 
+	Lehetőség van szerző és cím szerinti rendezésre, valamint a műfaj szerinti szűrésre. 		
+	A megjelenítés menüpontban az általunk kívánt részletezettség szerint választhatunk a következők közül:
+		- Kis ikon - 4 oszlopba rendezve, szerző, cím és műfaj információval,
+		- Nagy ikon - 3 oszlopba rendezve, borító kép, szerző, cím és műfaj információval,
+		- Széles nézet - teljes szélességben (1 oszlopban), borító kép, szerző, cím, műfaj és rövid leírás információval.
+		A rendezés, a műfaj szerinti szűrés, és a megjelenítés legördülő menükből érhető el. A funkciók kombinálhatók. 
+			Képernyő kép: lásd Design/Screenschot/konyvlista.0RTF
+
+4. Fejlesztési lehetőségek
+	- Mobileszközökre történő optimalizálás.
+	- A rendszer kibővítése webáruházzá
+	- A rendszer kibővítése antikvár könyvekkel foglalkozó bloggá
+	- Az adatbázis bővítés, mely a könyvekről tartalmaz több információt
+	- Regisztráció és jogosultsági rendszer kidolgozása. 
