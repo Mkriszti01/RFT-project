@@ -7,16 +7,15 @@ Jelen dokumentáció célja a Követelményspecifikációban definiált követel
 leképezése egy a fejlesztők számára használható, rendszerszemléletű, megvalósítás központú és kellő mélységű rendszertervvé.
 Bemutatjuk a rendszer fizikai szintű adatbázistervét, képernyőtervek segítségével szemléltetjük a kialakítandó felhasználói felületet. 
 
+1. Funkcionális terv
 
-
-1. Felhasználói felületek
+1.1 Felhasználói felületek
 	A tervezés során egyeztettünk a Fanatikvárium munkatársaival, ezúton is szem előtt tartottuk a felhasználói igényeket 
 	és az elvárt funkcionalitást. 
 	
 	Jogosultságok
-	A felhasználó előszőr a kezdőlappal találkozik. Az oldal látogatói számára a Kapcsolat (lásd lentebb) és a Könyvlista (lásd lentebb)
-	funkció érhetőek el. Az antikvárium munkatársai adott felhasználói név és jelszó megadásával új könyveket vihetnek fel a Fanatikvárium könyves adatbázisába. 	
-	A képernyőterveket nem jogosultság szerinti, hanem funkcionális bontásban tárgyaljuk. 
+	A felhasználó előszőr a kezdőlappal találkozik. Az oldal látogatói számára az összes funkció eléthető. 
+	A képernyőterveket funkcionális bontásban tárgyaljuk. 
 		
 	A rendszer használata
 	A rendszerben a következő funkciók közül lehet választani:
@@ -24,11 +23,14 @@ Bemutatjuk a rendszer fizikai szintű adatbázistervét, képernyőtervek segít
 	- Könylista
 	- Könyvek felvitele
 	- Kapcsolat
+	- Egyéb
 
-A továbbiakban a különböző funkciókat részletezzük, azok leírásával és képernyőtervével, valamint a felhasználói jogosultságokkal. 
+	A továbbiakban a különböző funkciókat részletezzük, azok leírásával és képernyőtervével, 
+	valamint a felhasználói jogosultságokkal. 
 	
 1.1 Kezdőlap
-	Mindenki számára elérhető felület, melynek célja a Fanatikvárium bemutatása és munkásságának ismertetése. Az itt megjelenítendő szöveget a megrendelő adja meg.
+	Mindenki számára elérhető felület, melynek célja a Fanatikvárium bemutatása és munkásságának ismertetése. 
+	Az itt megjelenítendő szöveget a megrendelő adja meg.
 	Tartalma:
 	- Rövid leírás a Fanatikvárium munkásságáról, céljairól. 
 	
@@ -45,40 +47,54 @@ A továbbiakban a különböző funkciókat részletezzük, azok leírásával �
 		
 	Képernyő terv: lásd Design/Screenschot/konyvlista.0RTF
 	
-1.3 Könyvek felvitele
-	Név és jelszó megadása után érhető el a könyvlista kezelésére szolgáló felület, ahol
-	lehetőség van a könyvek feltöltésére. 
-	Az itt megjelenő adatokat az adatbázis felépítésében részletezzük. 
+1.3 Listakezelő
+	A könyvlista kezelésére szolgáló felület, ahol lehetőség van a könyvek feltöltésére. 
+	Itt történjen a könyvek felvitele a rendszerbe. Az „Új könyv felvitele” alatt beírható 
+	minden szükséges információ az adott könyvről. A műfajt ne lehet szabadon beírni, 
+	hanem egy listából (regény, krimi, ifjúsági regény, mese, ismeretterjesztő) lehet választani. 
+	Szerepeljen egy „egyéb” kategóriát, arra az esetre, ha a rögzítendő könyv műfaja egyik kategóriához sem tartozik.
 	
 	Képernyő terv: lásd Design/Screenschot/ujkonyv_1.0_RTF
 	
 
 1.4 Kapcsolat
 	Bejelentkezés nélkül elérhető felület, mely a Fanatikvárium elérhetőségeit tartalmazza. 
-	Itt jelenik meg a cím és a telefonszám is, valamint egy Foto az antikváriumról. 
+	Itt jelenik meg a cím, az e-mail cím és a telefonszám is.
 	
+	
+2. Fizikai rendszerterv
+2.1 Adatbázis terv
 
-2. Adatbázis terv
+	Logikai adatmodel
 	
 	A 'books' tábla felépítése: 
-	- ID, típusa: ID, Maximálisan 10 karakter, megadása kötelező, nem vehet fel null étéket. 
-		??? generált vagy kézzel megadott ????
+	- ID, típusa: ID, maximálisan 11 karakter, automatikusan generált mező.
 	- Szerző, típusa: varhchar, maximálisan 255 karakter, nem vehet fel null értéket.
 	- Cím, típusa: varhchar, maximálisan 255 karakter, nem vehet fel null értéket.
 	- Műfaj típusa: text, megadása nem kötelező.
 	- Leírás típusa: text, megadása nem kötelező.
 	- Kép típusa: varhchar, maximálisan 255 karakter, amennyiben nem történik képfeltöltés egy 
 		alapértelmezett kép jelenik meg ( a Fanatikvárium logója). 
-		
+	
+	Tárolt eljárások
 	
 	
-	
-	
-	
+	Fizikai adatmodelt legeneráló SQL szkript
+	CREATE TABLE `books` (
+	`id` int(11) NOT NULL,
+	`szerzo` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
+	`cim` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
+	`mufaj` text CHARACTER SET utf8,
+	`leiras` text COLLATE utf8_hungarian_ci NOT NULL,
+	`kep` varchar(255) CHARACTER SET utf8 DEFAULT NULL
+	) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_hungarian_ci;
 
-3. Logikai rendszerterv
 
 	
+2.2 Teszterv
+	Lásd: tersztelési terv.txt
 
-4. Fizikai rednszerterv
+2.3 Architektúrális terv
+	MVC-modell 
+
 
