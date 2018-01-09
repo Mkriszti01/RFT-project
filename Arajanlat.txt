@@ -80,13 +80,15 @@ ejlesztések és újítások megvalósítására is.
 
 A kifejlesztendő weboldallal kapcsolatos elvárások:
 •	A kezdőlapon a cég tevékenységének és az üzletnek a bemutatása szerepeljen.
-•	A könyvlista menüpontban jelenjen meg az adatbázisban szereplő könyvek listája a következő adatokkal: könyv szerzője, a könyv címe, 
-a könyv műfaja és egy rövid ismertetés a könyvről (esetleg kép a könyv borítójáról, kiadó neve, kiadás éve, ISBN, ISSN). 
-Az adatbázisból cím, szerző és műfaj szerint lehessen keresni, különböző megjelenítés közül lehessen választani.
+•	A könyvlista menüpontban jelenjen meg az adatbázisban szereplő könyvek listája a következő adatokkal: 
+	könyv szerzője, a könyv címe, a könyv műfaja és egy rövid ismertetés a könyvről (esetleg kép a könyv borítójáról). 
+	Különböző megjelenítés közül lehessen választani. Legyen lehetőség a műfaj szerinti szűrésre, illetve a szerző és 
+	a cím szerinti rendezésre.
 •	A listakezelés menüpontban legyen lehetőség az új könyvek adatainak felvitele, rögzítése az adatbázisba.
 •	A kapcsolat menüpontban a cég elérhetőségei, cím, e-mail cím és telefonszám szerepeljen.
+
 A webes rendszerrel kapcsolatos további elvárás, hogy rendelkezésre álljon egy olyan felület a megrendelő részére, ahol a könyvek 
-gyszerű és gyors karbantartása és felvitele történhet. Természetesen az adatbevitel és módosítás csak szigorú ellenőrzések mellett 
+egyszerű és gyors karbantartása és felvitele történhet. Természetesen az adatbevitel és módosítás csak szigorú ellenőrzések mellett 
 történhet meg! 
 Felhasználni kívánt technológiák
 A felhasználni kívánt technológiák teljes mértékben lefedik a pályázatban leírtakat, PHP alapú megvalósítás, flash mellőzésével.
@@ -99,53 +101,41 @@ A szoftver által nyújtott szolgáltatások, reakciók, viselkedések leírás�
 vállalni.
 
 
-Funkció	Feladat	Prioritás	Becslés	Hátralévő 
-Funkcionális követelmények		1	300	300
-	Tartalmak szerkesztése		35	35
-	Tartalmak készítése		25	25
-	Tartalmi jogosultságok		25	25
-	Formázott szöveg		20	20
-	Formázatlan szöveg		20	20
-	Média elemek csatolása		20	20
-	Kép és Video csatolása		20	20
-	Közösségi oldali megosztás		20	20
-	Nézetek készítése, szerkesztése		30	30
-	Szűrés lehetősége nézet, tartalom, dátum, szerző szerint		20	20
-	Belépő oldal, regisztráció, reg védelem		20	20
-	Jogosultsági rendszer, be-ki lépés, e-mail küldés, jelszó emlékeztető		20	20
-	Regisztrált és nem regisztrált felhasználói jogosultságok beállítása		20	20
-	Admin jogosultságok beállítása		5	5
+	Funkció	Feladat			Prioritás	Becslés		Hátralévő 
+Funkcionális követelmények		1		300		300
+	Tartalmak szerkesztése				35		35
+	Tartalmak készítése				25		25
+	Tartalmi jogosultságok				25		25
+	Formázott szöveg				20		20
+	Formázatlan szöveg				20		20
+	Média elemek csatolása				20		20
+	Kép csatolása					20		20
+	Nézetek készítése, szerkesztése			30		30
+	Szűrés lehetősége műfaj szerint			20		20
+	Admin jogosultságok beállítása			5		5
+
 Ütemterv
 
-Funkció	Feladat	Prioritás	Becslés	Hátralévő 
-Nem Funkcionális követelmények		2	220	220
-	Felhasználó általi karbantartás		20	20
-	Tartalmak, oldalak minősítése gomb		25	25
-	Tartalmakhoz hozzászólás, megosztás 		20	20
-	Hírcsatorna beépítése (RSS)		20	20
-	File fel-le töltési lehetőség		20	20
-	Kalkulátorok választhatósága		25	25
-	Egyedi keresők fejlesztése		20	20
-	Felhasználói dokumentáció készítése		20	20
-	Fejlesztői dokumentáció készítése		20	20
-	Tesztelés (project)		20	20
-	Tesztelés böngészőn		10	10
-Project vezetés			15	15
+	Funkció	Feladat				Prioritás	Becslés		Hátralévő 
+Nem Funkcionális követelmények			2		220		220
+	Felhasználó általi karbantartás				20		20
+	File fel-le töltési lehetőség				20		20
+	Egyedi keresők fejlesztése				20		20
+	Felhasználói dokumentáció készítése			20		20
+	Fejlesztői dokumentáció készítése			20		20
+	Tesztelés (project)					20		20
+	Tesztelés böngészőn					10		10
+	Project vezetés						15		15
 
-Funkció	Feladat	Prioritás	Becslés	Hátralévő 
-Felhasználói felület modellje		3	440	440
-	Megadott adatok alapján fő és aloldal elkészítése		50	50
-	Fő és másodlagos navigációs menük elkészítése		45	45
-	Szükséges gráfok, ikonok elkészítése		35	35
-	Ergonómikus, felhasználóbarát felületek tervezése		40	40
-	Adott logó színvilágának megtervezése, készítése		40	40
-	Többnyelvű megjelenési lehetőség		35	35
-	Szükséges tartalmak fordítása		40	40
-	Nyomtatási lehetőség		35	35
-	Többféle böngésző kompabilitás		45	45
-	Mérhetőség (analitics) skálázhatóság		35	35
-Tartalék idő			40	40
-Összes Munkaidő:			960 	960 óra
+	Funkció	Feladat				Prioritás	Becslés		Hátralévő 
+	Felhasználói felület modellje		3		440		440
+	Megadott adatok alapján fő és aloldal elkészítése	50		50
+	Navigációs menük elkészítése				45		45
+	Szükséges gráfok, ikonok elkészítése			35		35
+	Ergonómikus, felhasználóbarát felületek tervezése	40		40
+	Adott logó színvilágának megtervezése, készítése	40		40
+	Tartalék idő						40		40
+	Összes Munkaidő:					960 		960 óra
 
 Kalkulációnk alapján a projektet 2 fővel számolva 60 napnyi időtartam alatt tudjuk elvállalni, 20.000 Ft/napidíjjal számolva.
 Összesen a projekt elkészítésének ellenértékét 2.400.000 Ft értékben állapítottuk meg. 
