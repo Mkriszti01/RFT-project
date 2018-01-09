@@ -51,7 +51,7 @@ Bemutatjuk a rendszer fizikai szintű adatbázistervét, képernyőtervek segít
 	A könyvlista kezelésére szolgáló felület, ahol lehetőség van a könyvek feltöltésére. 
 	Itt történjen a könyvek felvitele a rendszerbe. Az „Új könyv felvitele” alatt beírható 
 	minden szükséges információ az adott könyvről. A műfajt ne lehet szabadon beírni, 
-	hanem egy listából (regény, krimi, ifjúsági regény, mese, ismeretterjesztő) lehet választani. 
+	hanem egy listából (regény, krimi, ifjúsági regény, mese) lehet választani. 
 	Szerepeljen egy „egyéb” kategóriát, arra az esetre, ha a rögzítendő könyv műfaja egyik kategóriához sem tartozik.
 	
 	Képernyő terv: lásd Design/Screenschot/ujkonyv_1.0_RTF
@@ -76,9 +76,6 @@ Bemutatjuk a rendszer fizikai szintű adatbázistervét, képernyőtervek segít
 	- Kép típusa: varhchar, maximálisan 255 karakter, amennyiben nem történik képfeltöltés egy 
 		alapértelmezett kép jelenik meg ( a Fanatikvárium logója). 
 	
-	Tárolt eljárások
-	
-	
 	Fizikai adatmodelt legeneráló SQL szkript
 	CREATE TABLE `books` (
 	`id` int(11) NOT NULL,
@@ -91,10 +88,9 @@ Bemutatjuk a rendszer fizikai szintű adatbázistervét, képernyőtervek segít
 
 
 	
-2.2 Teszterv
-	Lásd: tersztelési terv.txt
+2.2 Teszt-terv
+	Lásd: Tersztelési terv.txt
 
-2.3 Architektúrális terv
-	MVC-modell 
+
 
 
