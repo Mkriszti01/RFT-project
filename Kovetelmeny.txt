@@ -4,60 +4,59 @@ a Fanatikvárium Kft. nyilvántartási rendszerének fejlesztéséhez
 
 
 
-Árajánlatot szeretnénk kérni a következő tartalommal:
+Árajánlatot szeretnénk kérni a következő tartalommal
 
 
 1. Funkcionális követelmények
 	A funkciók menürendszerből érhetőek el az egér bal gombjának kattintásával. 
 	Adatbázis az antikvárium aktuális könyveiről. 
-	Új könyv bevitele: kötelező adatként a szerző, a könyv címe, leírás, műfaj. 
-	Nem kötelező adat az ISBN vagy az ISSN szám, a kiadási év, a kiadó, kép a könyv borítójáról. 
-	Keresés a könyvek közt: szerző és cím szerint. 
-	Aktuális készlet lekérdezése, szerző szerint rendezve. 
+	Új könyv bevitele: kötelező adatként a szerző neve, a könyv címe, leírás, műfaj. 
+	Nem kötelező a kép a könyv borítójáról, de hiányábanalapértelmezet kép kerül beállírásra. 
+	Keresés a könyvek közt műfaj szerint. 
+	Aktuális készlet lekérdezése, szerző és cím szerint rendezve. 
 
 	
 2. Nem funkcionális követelmények
 
-2.1.termék követelmények: 
+2.1.Termék követelmények
 
-• megbízhatóság 
+• mMgbízhatóság 
 	a funkciók mindig elérhetőek és végrehajtódnak, akkor is, ha az adatok sérülnek 
 	a felhasználói bevitel ellenőrzött, csak helyes bevitelt fogad el az alkalmazás 
 
-• biztonság 
+• Biztonság 
 	A szoftvert alapfunkciója (aktuális könyvlista), mindenki számára elérhető. 
-	Az adatbázis kezelése felhasználói névvel és jelszóval érhető el. 
 	A szoftverben tárolt adatok védelme az illetéktelen (a szoftveren kívül történő) hozzáféréssel szemben.
 
-• hordozhatóság
+• Hordozhatóság
 	A program interneten keresztül elérhető legyen Windows XP, vagy újabb operációs rendszeren is. 
 	Elsősorban Google Chrome böngészővel. 
 	A program használatához ne kelljen külön szoftvert telepíteni. 
 
-• felhasználhatóság
+• Felhasználhatóság
 	Minden programfunkciónak azonnal áttekinthetőnek kell lennie kézikönyv nélkül. 
 
 
-2.2.menedzselési követelmények
+2.2.Menedzselési követelmények
 
-• környezeti: 
+• Környezeti követelmények
 	A felhasználás helye a Windows 10-t futtató számítógép vagy laptop. 
 	Nem kell más szoftverekkel együttműködnie.
 
-• működési: 
+• Működési követelmények
 	A programot minden nap reggel indítják el és este állítják le, közben változó időközönként 
 	veszik igénybe a funkcionalitását.
 	Esetenként 2 vagy több helyen használhatják. 
 
 	
-2.3.külső követelmények 
+2.3.Külső követelmények 
 	A jogszabályi előírások betartása az Ajánlattevő részéről.
 	A felhasználók adatinak bizalmas kezelése.
 	Az ajánlatkérés alapján elkészülő fejlesztés, szoftver tulajdonjogi kérdéseit az Ajánlatkérő
 	és az Ajánlattevő között létrejövő szerződés szabályozza.
 
 
-3. A felhasználói felület modellje: 
+3. A felhasználói felület modellje 
 
 A meglévő könyveinkről szeretnénk egy nyilvántartást Web-es felületen, 
 hogy az érdeklődők kényelmes körülmények között, otthonról válogathassanak 
@@ -68,43 +67,36 @@ A következő menüpontok szerepeljenek, az oldal bal oldalán egymás alatt:
 a.) Kezdőlap:
 Legyen egy kezdőlap, ahol szerepelhet az üzletről egy bemutatkozás, tájékoztatás 
 az oldal látogatói számára, hogy milyen tevékenységet folytatunk.
-Ez az oldal jelenjen meg az oldal megnyitásakor.
+A kezdőlap jelenjen meg az oldal megnyitásakor.
 
 b.) Könyvlista:
 Erre a menüpontra kattintva jelenjen meg a könyvek listája, alapvetően rendezés nélkül.
-A könyvekről el kell tárolni, illetve meg kell jeleníteni a következő adatokat:
- a könyv szerzője,
- a könyv címe, kiadó neve, a kiadás éve, ISBN vagy ISSN (amennyiben elérhető)
- kép a könyv borítójáról (amennyiben az adott könyv esetében ez még nem áll rendelkezésre, 
-   akkor egy az antikvárium nevét megjelenítő ábra szerepeljen),
- a könyv műfaja,
- egy rövid leírás a könyvről.
+A könyvekről el kell tárolni, illetve meg kell jeleníteni a következő adatokat:a könyv szerzője,
+a könyv címe,  kép a könyv borítójáról (amennyiben az adott könyv esetében ez még nem áll rendelkezésre, 
+akkor egy az antikvárium nevét megjelenítő ábra szerepeljen), a könyv műfaja, egy rövid leírás a könyvről.
 
-Legyen lehetőség 
- cím szerinti és 
- szerző szerinti rendezésre.
+Legyen lehetőség cím szerinti és  szerző szerinti rendezésre.
 
 Szeretnénk, hogy műfaj szerint lehessen keresni a könyvek között: 
- regény, 
- krimi, 
- ifjúsági regény, 
- mese
- ismeretterjesztő.
-
+ - regény, 
+ - krimi, 
+ - ifjúsági regény, 
+ - mese
+ 
 Különböző megjelenítést szeretnénk, annak megfelelően, hogy milyen információkra, 
 milyen részletekre kíváncsi az érdeklődő:
-Kis ikon: könyvenként viszonylag kis felületen jelenjen meg 
- a könyv szerzője, címe, műfaja. Több sor, több oszlop.
-Nagy ikon: könyvenként viszonylag nagy felületen jelenjen meg 
- a könyv borítójának képe, a könyv szerzője, címe, műfaja. Több sor, több oszlop.
-Széles nézet: könyvenként az oldal szélességében jelenjen meg
- a könyv borítójának képe, a könyv szerzője, címe, műfaja, rövid leírása. Több sor, egy oszlop.
+	- Kis ikon: könyvenként viszonylag kis felületen jelenjen meg a könyv szerzője, 
+	  címe, műfaja. Több sor, több oszlop.
+	- Nagy ikon: könyvenként viszonylag nagy felületen jelenjen meg a könyv borítójának képe, 
+	  a könyv szerzője, címe, műfaja. Több sor, több oszlop.
+	- Széles nézet: könyvenként az oldal szélességében jelenjen meg a könyv borítójának képe,
+	  a könyv szerzője, címe, műfaja, rövid leírása. Több sor, egy oszlop.
 
 c.) Listakezelés:
 Ezt a menüpontot felhasználó névvel és jelszóval lehessen elérni. 
 Itt történjen a könyvek felvitele a rendszerbe. Az „Új könyv felvitele” alatt beírható legyen
  minden szükséges információ az adott könyvről. A műfajt ne lehessen szabadon beírni, 
- hanem egy listából (regény, krimi, ifjúsági regény, mese, ismeretterjesztő) lehessen választani. 
+ hanem egy listából (regény, krimi, ifjúsági regény, mese) lehessen választani. 
  Itt esetleg célszerű szerepeltetni egy „egyéb” kategóriát, arra az esetre, 
  ha a rögzítendő könyv műfaja egyik kategóriához sem tartozik.
 
@@ -114,6 +106,9 @@ Fanatikvárium
 cím: 3300 Eger, Dobó tér 3.
 e-mail cím: fanatikvarium@fanatikvarium.hu
 telefon: 0620/111-2222
+
+e.) Egyéb
+Ez a felület egyenlőre tartalom nélkül jelenjen meg. 
 
 A Web oldal alján legyen a fejléccel azonos színben egy lábléc, 
 a „Köszönjük, hogy ellátogatott oldalunkra!” felirattal.
